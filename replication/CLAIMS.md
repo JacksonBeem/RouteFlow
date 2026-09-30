@@ -12,26 +12,26 @@ records. Neither makes a model or AWS call. Tested on Python 3.14.5.
 
 ```
 python scripts/cohort100_ab_analyze.py --runs eval-b1 eval-b2 --decompose dec-1 --out eval
-python data/cohort100_ab/analysis/paper_todo_data.py
+python data/cohort100_ab/analysis/paper_numbers.py
 ```
 
 1. Writes `data/cohort100_ab/analysis/eval.json`, the pre-registered B0 vs A1 analysis
    (`docs/cohort100_ab_preregistration_2026-09-26.md`).
-2. Writes `data/cohort100_ab/analysis/paper_todo_data.json`, every other paper number.
+2. Writes `data/cohort100_ab/analysis/paper_numbers.json`, every other paper number.
 
 Both outputs are shipped and regenerate byte-identical. `python replication/verify_tier1.py`
 runs both commands and checks this. Bootstrap CIs are seeded: `cohort100-ab-boot-v1` for the analysis script and
-`paper-todo-v1` for the task-mean CIs in `paper_todo_data.py`.
+`paper-todo-v1` for the task-mean CIs in `paper_numbers.py`.
 
 ## Notation
 
 | Paper | Run records / code |
 |---|---|
 | B0, A1 | arms `B0`, `A1` of runs `eval-b1` + `eval-b2` |
-| P-DeepSeek | run `proposed-3`, router preset `v3`; key `P3` in `paper_todo_data.json` |
-| P-Sonnet | run `proposed-4`, router preset `v1`; key `P4` |
+| P-DeepSeek | run `proposed-3`, router preset `v3`; key `P-DeepSeek` in `paper_numbers.json` |
+| P-Sonnet | run `proposed-4`, router preset `v1`; key `P-Sonnet` |
 | Strong / Medium / Light tier | router tier `hard` / `medium` / `easy` (`cost_detail.*.tiers` already uses the paper's names) |
-| Easy / medium / hard *difficulty* | `easy` / `medium` / `hard` groups in `paper_todo_data.json` |
+| Easy / medium / hard *difficulty* | `easy` / `medium` / `hard` groups in `paper_numbers.json` |
 | T_c(t) | `T_E2E_s` per arm in `rows.jsonl` |
 | S_c (Eq. 3) | `speedup_vs_B0_template_geomean.S` (same estimator as `eval.json` `primary`) |
 | N, D, S* = N/D | `N`, `D` in `data/cohort100_ab/dags.json`; `N_over_D_mean` |
@@ -40,7 +40,7 @@ runs both commands and checks this. Bootstrap CIs are seeded: `cohort100-ab-boot
 Both manifests of P-DeepSeek and P-Sonnet record `router_version: proposed-router-v2`. The
 preset (`router_preset`) is what distinguishes them.
 
-In the paths below, `J` is `data/cohort100_ab/analysis/paper_todo_data.json`.
+In the paths below, `J` is `data/cohort100_ab/analysis/paper_numbers.json`.
 
 ## Section 3.1: dataset
 
@@ -65,17 +65,17 @@ In the paths below, `J` is `data/cohort100_ab/analysis/paper_todo_data.json`.
 
 | Claim (line) | Source |
 |---|---|
-| Correct 16 / 15 / 15 / 16 | `J` `all.{B0,A1,P3,P4}.correct` |
+| Correct 16 / 15 / 15 / 16 | `J` `all.{B0,A1,P-DeepSeek,P-Sonnet}.correct` |
 | Median latency 155.8 / 124.6 / 125.2 / 112.1 s | `all.*.T_median_s` (all 100 tasks; a failed arm counts its time to failure) |
 | Speedup 1.28× [1.23, 1.34], 1.34× [1.28, 1.40], 1.47× [1.41, 1.53] | `all.*.speedup_vs_B0_template_geomean` (`S`, `ci95`); A1 also equals `eval.json` `primary` |
 | Cost $20.87 (−5.1%), $21.99, $20.10 (−8.6%), $20.40 (−7.2%) | `all.*.C_Total_sum`, `cost_ratio_vs_A1_Ctotal` |
 | Figure 2 bars and error bars | `{easy,medium,hard,all}.*.speedup_vs_B0_template_geomean`; dashed lines `N_over_D_mean` |
 | 22% latency reduction; medium 1.49×, easy 1.16×, hard 1.17× (518–524) | `1 − 1/S`; per-difficulty `S` |
 | Spearman ρ = 0.81 across templates (525) | `eval.json` `H2.spearman_measured_vs_N_over_D` (template level) |
-| 86% of ideal; 76 of 99 tasks below it (527–528) | `fig_R2.A1.mean_measured_over_ideal`, `tasks_below_ideal` |
+| 86% of ideal; 76 of 99 tasks below it (527–528) | `speedup_vs_ideal.A1.mean_measured_over_ideal`, `tasks_below_ideal` |
 | Overhead 1.4–3.4 s per task, 1.1–2.4% of latency (529–530) | `all.*.overhead_mean_s`, `overhead_share_of_T` |
-| P-Sonnet 1.14× [1.08, 1.21] over A1, 98% of ideal, above it on 37 tasks (533–536) | `all.P4.speedup_vs_A1_template_geomean`; `fig_R2.P4` |
-| P-DeepSeek 1.05× [0.99, 1.10] over A1 (537–539) | `all.P3.speedup_vs_A1_template_geomean` |
+| P-Sonnet 1.14× [1.08, 1.21] over A1, 98% of ideal, above it on 37 tasks (533–536) | `all.P-Sonnet.speedup_vs_A1_template_geomean`; `speedup_vs_ideal.P-Sonnet` |
+| P-DeepSeek 1.05× [0.99, 1.10] over A1 (537–539) | `all.P-DeepSeek.speedup_vs_A1_template_geomean` |
 
 ## Section 4.2, Figure 3, Table 4: cost
 
@@ -87,12 +87,12 @@ In the paths below, `J` is `data/cohort100_ab/analysis/paper_todo_data.json`.
 | 1,010 transitions, $0.025 (589) | `cost_detail.*.sfn_transitions`, `C_SFN` |
 | At most 1.2% of total saved by starting workers only when ready (593–594) | `cost_detail.*.lambda_wait_cost_share_of_C_Total` |
 | A1 +5% vs B0; routing −8.6% / −7.2% vs A1, −3.7% / −2.2% vs B0 (595–599) | `all.*.cost_ratio_vs_{A1,B0}_Ctotal`; `C_Total_sum` |
-| Routing 54% / 37% / 9%; light 3–12% by difficulty; multi-candidate 32 (all easy); tie-break 0 (601–606) | `fig_R4_routing` |
-| Strong ~1,800 output tokens per subtask (607) | `cost_detail.{P3,P4}.tiers.strong.output_tokens_per_subtask` |
+| Routing 54% / 37% / 9%; light 3–12% by difficulty; multi-candidate 32 (all easy); tie-break 0 (601–606) | `routing_profile` |
+| Strong ~1,800 output tokens per subtask (607) | `cost_detail.{P-DeepSeek,P-Sonnet}.tiers.strong.output_tokens_per_subtask` |
 | GPT-5.2 73–76% of LLM cost (608) | `tiers.strong.cost_usd / C_LLM` |
-| Gemini $0.013–0.014 vs $0.018 per subtask, 22–25% lower (609–611) | `tiers.medium.usd_per_subtask` (P3, P4 vs A1) |
-| DeepSeek $0.0005 (85% below GPT-5.2); Sonnet $0.012 (3.5×) (613–616) | `tiers.light.usd_per_subtask` (P3, P4 vs A1) |
-| Table 4 tokens and $/subtask | `cost_detail.{A1,P3,P4}.tiers.*` |
+| Gemini $0.013–0.014 vs $0.018 per subtask, 22–25% lower (609–611) | `tiers.medium.usd_per_subtask` (P-DeepSeek, P-Sonnet vs A1) |
+| DeepSeek $0.0005 (85% below GPT-5.2); Sonnet $0.012 (3.5×) (613–616) | `tiers.light.usd_per_subtask` (P-DeepSeek, P-Sonnet vs A1) |
+| Table 4 tokens and $/subtask | `cost_detail.{A1,P-DeepSeek,P-Sonnet}.tiers.*` |
 | Figure 3 segments (e.g. A1 15.26 strong + 6.06 medium) | `cost_detail.*.tiers.*.cost_usd`; B0 bar = `cost_detail.B0.C_LLM` |
 
 ## Section 4.3: accuracy
@@ -123,6 +123,3 @@ In the paths below, `J` is `data/cohort100_ab/analysis/paper_todo_data.json`.
   median (124.9 s) differs from Table 3's (124.6 s).
 - **Accuracy:** a failed arm counts as incorrect.
 
-`data/cohort100_ab/analysis/paper_todo_data.md` is a working note written against an earlier
-draft of the paper. Its section references and its "does not match" list refer to that draft;
-this file supersedes it.

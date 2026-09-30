@@ -2,8 +2,8 @@
 
   python replication/verify_tier1.py
 
-Runs scripts/cohort100_ab_analyze.py (-> eval.json) and data/cohort100_ab/analysis/paper_todo_data.py
-(-> paper_todo_data.json), compares each regenerated file byte for byte with the shipped one, then
+Runs scripts/cohort100_ab_analyze.py (-> eval.json) and data/cohort100_ab/analysis/paper_numbers.py
+(-> paper_numbers.json), compares each regenerated file byte for byte with the shipped one, then
 restores the shipped files. Prints MATCH or DIFF per file; exit code 0 only if both match.
 Offline, standard library only, a few seconds.
 """
@@ -17,7 +17,7 @@ ANALYSIS = ROOT / "data/cohort100_ab/analysis"
 CHECKS = [
     (["scripts/cohort100_ab_analyze.py", "--runs", "eval-b1", "eval-b2", "--decompose", "dec-1", "--out", "eval"],
      ANALYSIS / "eval.json"),
-    (["data/cohort100_ab/analysis/paper_todo_data.py"], ANALYSIS / "paper_todo_data.json"),
+    (["data/cohort100_ab/analysis/paper_numbers.py"], ANALYSIS / "paper_numbers.json"),
 ]
 
 

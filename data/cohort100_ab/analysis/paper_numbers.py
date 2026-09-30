@@ -1,13 +1,18 @@
-"""Gather the numbers the agentic_serverless.pdf TODOs need. Offline, reads run records only.
-  python data/cohort100_ab/analysis/paper_todo_data.py      (any cwd; writes paper_todo_data.json next to this file)
-B0/A1 = eval-b1 + eval-b2 (pre-registered analysis items); P3 = proposed-3 (router v3), P4 = proposed-4 (router v1).
-Speedup estimator = the pre-registered one (template-weighted geomean of per-task ratios, stratified bootstrap CI)."""
+"""Compute the paper's numbers (accuracy, latency, speedup, cost, routing profile) from the run records.
+
+  python data/cohort100_ab/analysis/paper_numbers.py      (any cwd; writes paper_numbers.json next to this file)
+
+Offline, standard library only. Configurations: B0 and A1 = runs eval-b1 + eval-b2;
+P-DeepSeek = run proposed-3 (router preset v3); P-Sonnet = run proposed-4 (router preset v1).
+Speedup estimator: template-weighted geometric mean of per-task ratios with a stratified bootstrap
+95% CI (the same estimator as scripts/cohort100_ab_analyze.py). Output keys use the paper's names;
+replication/CLAIMS.md maps each paper number to its key."""
 import json, math, random, statistics, sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-OUT = Path(__file__).resolve().parent / "paper_todo_data.json"
+OUT = Path(__file__).resolve().parent / "paper_numbers.json"
 sys.path[:0] = [str(ROOT / "scripts"), str(ROOT / "src")]
 import cohort100_ab_analyze as A  # noqa: E402
 
@@ -229,5 +234,21 @@ for c, (runs, arm) in RUNS_OF.items():
                              "output_tokens_per_subtask": v["output_tokens"] / len(v["nodes"])}
                          for t, v in sorted(tiers.items())}}
 out["cost_detail"] = cost
+
+# Output keys in the paper's notation (internal short codes above are P3 / P4 and router tier
+# names easy / hard; the paper says P-DeepSeek / P-Sonnet and light / strong).
+KEYS = {"P3": "P-DeepSeek", "P4": "P-Sonnet", "fig_R2": "speedup_vs_ideal", "fig_R4_routing": "routing_profile",
+        "only_proposed": "only_routeflow", "P3_vs_P4_disagree": "P-DeepSeek_vs_P-Sonnet_disagree"}
+ROUTER_TIER = {"easy": "light", "medium": "medium", "hard": "strong"}
+
+
+def paper_keys(x):
+    return {KEYS.get(k, k): paper_keys(v) for k, v in x.items()} if isinstance(x, dict) else x
+
+
+out = paper_keys(out)
+for g in out["routing_profile"].values():
+    for k in ("tiers", "share"):
+        g[k] = {ROUTER_TIER[t]: v for t, v in g[k].items()}
 OUT.write_text(json.dumps(out, indent=1, default=str), encoding="utf-8")
 print("ok")

@@ -39,8 +39,8 @@ files are restored afterwards either way.
 - `scripts/cohort100_ab_analyze.py --runs eval-b1 eval-b2 --decompose dec-1 --out eval`
   recomputes the pre-registered B0 vs A1 analysis into `eval.json`. The pre-registration is
   `docs/cohort100_ab_preregistration_2026-09-26.md`.
-- `data/cohort100_ab/analysis/paper_todo_data.py` recomputes every other paper number into
-  `paper_todo_data.json`.
+- `data/cohort100_ab/analysis/paper_numbers.py` recomputes every other paper number into
+  `paper_numbers.json`.
 
 Both scripts read only the shipped run records under `data/cohort100_ab/`.
 
@@ -112,7 +112,7 @@ Runner dependencies are listed in `environment/requirements-runner.txt`.
 | `scripts/cohort100_ab_*.py`, `scripts/proposed_*.py` | runners, grader, analysis |
 | `data/cohort100_ab/nodes.jsonl`, `dags.json` | the 100 tasks' subtask specifications and dependency graphs |
 | `data/cohort100_ab/runs/<run>/` | `manifest.json` (frozen configuration and code hashes), `rows.jsonl` (one row per task), `raw/` (every model attempt, Step Functions history and Lambda report), `grades.json` |
-| `data/cohort100_ab/analysis/` | `eval.json`, `paper_todo_data.json`, the scripts that produce them |
+| `data/cohort100_ab/analysis/` | `eval.json`, `paper_numbers.json`, the scripts that produce them |
 | `data/study_v1/audits/chemistry_deps_v1/cohort_100/validation_report.json` | the nine per-task dataset checks (paper section 3.1) |
 | `docs/cohort100_ab_*` | pre-registration (with deviation log) and results report for B0 vs A1 |
 
