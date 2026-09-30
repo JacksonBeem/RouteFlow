@@ -1,4 +1,4 @@
-# 🔀 RouteFlow: Dependency-Aware Task Decomposition and Parallel Multi-LLM Execution on Serverless Workflows
+# RouteFlow: Dependency-Aware Task Decomposition and Parallel Multi-LLM Execution on Serverless Workflows
 
 This repository contains the code, complete per-task run records, and analysis for **RouteFlow**,
 a serverless orchestration approach for complex LLM tasks. RouteFlow decomposes a task into a
@@ -13,7 +13,7 @@ both use GPT-5.2 for every subtask. The RouteFlow variants are **P-DeepSeek** an
 > This package accompanies a paper under double-blind review. Author information will be added
 > after review.
 
-## 📦 Features
+## Features
 
 - **Complete run records** for all four configurations: every model attempt (tokens, cost,
   served model and provider), the Step Functions execution history and the Lambda billing report,
@@ -33,7 +33,7 @@ both use GPT-5.2 for every subtask. The RouteFlow variants are **P-DeepSeek** an
 - **Seeded statistics**: all bootstrap CIs (10,000 stratified resamples) and task orderings use
   named string seeds.
 
-## 🔐 Prerequisites
+## Prerequisites
 
 - **Windows x64 with Python 3.14.** Reproducing the paper's numbers needs nothing else: no API
   key, no AWS account, no third-party packages.
@@ -43,10 +43,10 @@ both use GPT-5.2 for every subtask. The RouteFlow variants are **P-DeepSeek** an
   [OpenRouter](https://openrouter.ai/) API key stored in AWS Secrets Manager. Runner dependencies
   are in `replication/environment/requirements-runner.txt`.
 
-  ⚠️ Re-execution makes paid model calls: about USD 84 for all four configurations at the
+  Re-execution makes paid model calls: about USD 84 for all four configurations at the
   original prices.
 
-## 🧭 Approach Overview
+## Approach Overview
 
 ```
    complex task (LongCoT chemistry problem)
@@ -83,7 +83,7 @@ All models were accessed through OpenRouter with the provider pinned, low reason
 most 16,384 output tokens, strict JSON-schema output and no fallbacks. Lambda: Python 3.13,
 arm64, 512 MB.
 
-## 📊 Headline Results
+## Headline Results
 
 | Config | Correct | Median latency | Speedup vs. B0 [95% CI] | Cost (vs. A1) |
 |---|---|---|---|---|
@@ -101,7 +101,7 @@ arm64, 512 MB.
 Speedup is a template-weighted geometric mean of per-task ratios, with a stratified bootstrap CI.
 [`replication/CLAIMS.md`](replication/CLAIMS.md) gives the source of each value.
 
-## 🔬 Results by Question
+## Results by Question
 
 | Question (paper section) | Evidence | Output keys |
 |---|---|---|
@@ -118,7 +118,7 @@ Run directory to configuration:
 | `proposed-4` | P-Sonnet | `v1` |
 | `decompose/dec-1` | decomposition time T_dec | — |
 
-## 📂 Step-by-Step Workflow
+## Step-by-Step Workflow
 
 ### A. Reproduce the paper's numbers (no key, no AWS, seconds)
 
@@ -149,7 +149,7 @@ are in [`replication/README.md`](replication/README.md#tier-3-re-execution).
 A re-execution reproduces the results statistically, not exactly, because model outputs vary
 between runs.
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -196,7 +196,7 @@ between runs.
 └── template.cohort100-ab.yaml               # CloudFormation: bucket, roles, two state machines
 ```
 
-## 🚀 Extending
+## Extending
 
 - **Bind a tier to a different model:** add a preset to `MODEL_SETS` in `src/proposed/router.py`
   and the model's provider and prices to `ENDPOINTS` in `scripts/proposed_run.py`. Then run with
@@ -206,11 +206,11 @@ between runs.
 - **Run other tasks:** a task needs a subtask file in the `nodes.jsonl` format (instruction,
   output format, declared inputs). The runners take `--tasks` to select a subset.
 
-## 👨‍🔬 Citation
+## Citation
 
 Citation information will be added after the review period.
 
-## 📜 Licence
+## Licence
 
 Code and run records: MIT (`LICENSE`). LongCoT (code and data) is MIT-licensed by its authors.
 LongCoT examples carry a canary GUID for contamination detection, so please do not use the
