@@ -16,11 +16,11 @@ python data/cohort100_ab/analysis/paper_numbers.py
 ```
 
 1. Writes `data/cohort100_ab/analysis/eval.json`, the pre-registered B0 vs A1 analysis
-   (`docs/cohort100_ab_preregistration_2026-09-26.md`).
+   (`docs/preregistration_B0_vs_A1.md`).
 2. Writes `data/cohort100_ab/analysis/paper_numbers.json`, the four configurations' performance,
    cost, accuracy and routing summaries.
 
-Both outputs are shipped and regenerate byte-identical. `python replication/verify_tier1.py`
+Both outputs are shipped and regenerate byte-identical. `python replication/verify.py`
 runs both commands and checks this. Bootstrap CIs are seeded: `cohort100-ab-boot-v1` for the analysis script and
 `paper-todo-v1` for the task-mean CIs in `paper_numbers.py`.
 
@@ -52,7 +52,7 @@ In the paths below, `J` is `data/cohort100_ab/analysis/paper_numbers.json`.
 
 | Claim (line) | Source |
 |---|---|
-| 100 tasks: 33 easy, 33 medium, 34 hard; ≥ 8 per template; fixed quota and seed (364–368) | `data/study_v1/audits/chemistry_deps_v1/cohort_100/validation_report.json`: `quota`, `seed` 20260922, `status_counts` |
+| 100 tasks: 33 easy, 33 medium, 34 hard; ≥ 8 per template; fixed quota and seed (364–368) | `data/cohort100_ab/dataset_validation.json`: `quota`, `seed` 20260922, `status_counts` |
 | Nine automated checks, all 100 pass (369–378) | same file, `tasks[*].checks` (9 keys), `check_failures` = {} |
 | 910 subtasks, 1,011 edges, 185 transitively redundant in 25 medium + all 34 hard tasks (378–380) | `dags.json`: sum of `N`, `edge_count`, `redundant_edges` |
 | Easy N = 5, D = 4 (N/D 1.25); medium N/D 1.89; hard N 13.4, D 8.3 (N/D 1.57) (381–386) | `J` `{easy,medium,hard}.N_mean`, `D_mean`, `N_over_D_mean` |
@@ -62,7 +62,7 @@ In the paths below, `J` is `data/cohort100_ab/analysis/paper_numbers.json`.
 
 | Claim (line) | Source |
 |---|---|
-| 41 ordered rules; 3,990 development + reserve subtasks all match (296, 425–427) | `src/proposed/router.py` `PROPERTIES`; `data/proposed_router/summary.json` `splits` (410 + 3,580, `unmatched` 0) |
+| 41 ordered rules; 3,990 development + reserve subtasks all match (296, 425–427) | `src/proposed/router.py` `PROPERTIES`; `data/cohort100_ab/analysis/router_coverage.json` `splits` (410 + 3,580, `unmatched` 0) |
 | Table 2 models, providers, prices, shared settings | `runs/proposed-{3,4}/manifest.json` `tier_config`; `scripts/cohort100_ab_run.py` `CONFIG` |
 | Standard workflow, 3 h timeout; Python 3.13, arm64, 512 MB, 900 s (407–412) | `src/cohort100_ab/asl.py`; `CONFIG` |
 | Transient errors: 2 retries, 5 s, backoff; malformed output: 1 retry, same model (417–420) | `asl.py` `RETRY` (`ProviderRetryable`, `OutputInvalid`) |
@@ -125,6 +125,6 @@ In the paths below, `J` is `data/cohort100_ab/analysis/paper_numbers.json`.
 - **Latency medians and costs:** all 100 tasks per configuration. The one failed arm (A1 on
   `easy2_17`) contributes its time to failure and its cost.
 - **Speedups:** the 99 tasks where both B0 and A1 succeeded (the pre-registered primary set).
-  `docs/cohort100_ab_results_2026-09-28.md` reports medians over succeeded arms only, so its A1
+  `docs/results_B0_vs_A1.md` reports medians over succeeded arms only, so its A1
   median (124.9 s) differs from Table 3's (124.6 s).
 - **Accuracy:** a failed arm counts as incorrect.

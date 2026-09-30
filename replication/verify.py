@@ -1,6 +1,6 @@
 """Tier-1 check: regenerate the paper's numbers from the run records and compare with the shipped outputs.
 
-  python replication/verify_tier1.py
+  python replication/verify.py
 
 Runs scripts/cohort100_ab_analyze.py (-> eval.json) and data/cohort100_ab/analysis/paper_numbers.py
 (-> paper_numbers.json), compares each regenerated file byte for byte with the shipped one, then

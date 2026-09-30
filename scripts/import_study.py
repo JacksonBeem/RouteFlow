@@ -1,27 +1,23 @@
-"""Reproduce offline study imports from pinned, hash-verified raw artifacts."""
+"""Import the pinned LongCoT artifacts (fetched by fetch_study.py) into the normalized task and
+reference files used for grading and decomposition. Offline; verifies every source hash first.
+
+  python scripts/import_study.py longcot
+"""
 import argparse
-from study import longcot, routerbench, worfbench
-from study.common import STUDY, extract_router_archive, file_hash, read, write
+from study import longcot
+from study.common import STUDY, file_hash, read, write
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("dataset", choices=["all", "longcot", "worfbench", "llmrouterbench"])
-    parser.add_argument("--extract", action="store_true", help="Inspect/verify/extract router archive first.")
+    parser.add_argument("dataset", choices=["longcot"])
     args = parser.parse_args()
-    names = [args.dataset] if args.dataset != "all" else ["longcot", "worfbench", "llmrouterbench"]
-    for name in names:
+    for name in [args.dataset]:
         sources = read(STUDY / f"manifests/{name}.files.json")
         for entry in sources["files"]:
             if file_hash(STUDY / entry["path"]) != entry["sha256"]:
                 raise ValueError(f"Source hash mismatch: {entry['path']}")
-        if name == "llmrouterbench":
-            if args.extract:
-                extract_router_archive()
-            for entry in read(STUDY / "manifests/llmrouterbench.extracted.json")["files"]:
-                if file_hash(STUDY / entry["path"]) != entry["sha256"]:
-                    raise ValueError(f"Extracted file hash mismatch: {entry['path']}")
-        {"longcot": longcot, "worfbench": worfbench, "llmrouterbench": routerbench}[name].run()
+        longcot.run()
         write(STUDY / f"manifests/{name}.import.json", {
             "dataset": name, "import_version": 1,
             "input_manifest_sha256": file_hash(STUDY / f"manifests/{name}.files.json"),

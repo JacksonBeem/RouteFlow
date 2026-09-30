@@ -76,7 +76,7 @@ Every random draw in the package uses a named string seed. There are no unseeded
 | Batch split per template | `cohort100-ab-batch-v1` | `cohort100_ab_run.py` `BATCH_SEED` |
 | Speedup bootstrap CIs (10,000 resamples) | `cohort100-ab-boot-v1` | `scripts/cohort100_ab_analyze.py` |
 | Task-mean bootstrap CIs (accuracy, cost) | `paper-todo-v1` | `data/cohort100_ab/analysis/paper_numbers.py` |
-| Cohort sampling (100 tasks, fixed quota) | `20260922` | `cohort_100/validation_report.json` `seed` |
+| Cohort sampling (100 tasks, fixed quota) | `20260922` | `data/cohort100_ab/dataset_validation.json` `seed` |
 
 The LLM calls themselves are not seedable. The provider's default temperature applies (paper
 Table 2).

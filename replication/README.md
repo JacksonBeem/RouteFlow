@@ -29,7 +29,7 @@ LongCoT chemistry tasks:
 From the package root:
 
 ```powershell
-python replication/verify_tier1.py
+python replication/verify.py
 ```
 
 This runs both analysis scripts, compares each regenerated output byte for byte with the shipped
@@ -38,7 +38,7 @@ files are restored afterwards either way.
 
 - `scripts/cohort100_ab_analyze.py --runs eval-b1 eval-b2 --decompose dec-1 --out eval`
   recomputes the pre-registered B0 vs A1 analysis into `eval.json`. The pre-registration is
-  `docs/cohort100_ab_preregistration_2026-09-26.md`.
+  `docs/preregistration_B0_vs_A1.md`.
 - `data/cohort100_ab/analysis/paper_numbers.py` recomputes the four configurations' result summaries into
   `paper_numbers.json`.
 
@@ -102,7 +102,7 @@ Choose thresholds and available credit deliberately before launching.
    state machines.
    ```powershell
    $OpenRouterSecret = "your-secret-name"
-   aws cloudformation deploy --region us-east-1 --template-file template.cohort100-ab.yaml --stack-name dag-orchestrator-c100ab --capabilities CAPABILITY_IAM --parameter-overrides "OpenRouterSecret=$OpenRouterSecret"
+   aws cloudformation deploy --region us-east-1 --template-file infrastructure/template.yaml --stack-name dag-orchestrator-c100ab --capabilities CAPABILITY_IAM --parameter-overrides "OpenRouterSecret=$OpenRouterSecret"
    ```
    Replace `your-secret-name` with the name from step 1. The runners create and delete one Lambda
    function per subtask for each task; the shared infrastructure remains deployed.
@@ -151,9 +151,10 @@ Runner dependencies are listed in `environment/requirements-runner.txt`.
 | `scripts/cohort100_ab_*.py`, `scripts/proposed_*.py` | runners, grader, analysis |
 | `data/cohort100_ab/nodes.jsonl`, `dags.json` | the 100 tasks' subtask specifications and dependency graphs |
 | `data/cohort100_ab/runs/<run>/` | `manifest.json` (frozen configuration and code hashes), `rows.jsonl` (one row per task), `raw/` (every model attempt, Step Functions history and Lambda report), `grades.json` |
-| `data/cohort100_ab/analysis/` | `eval.json`, `paper_numbers.json`, the scripts that produce them |
-| `data/study_v1/audits/chemistry_deps_v1/cohort_100/validation_report.json` | the nine per-task dataset checks (paper section 3.1) |
-| `docs/cohort100_ab_*` | pre-registration (with deviation log) and results report for B0 vs A1 |
+| `data/cohort100_ab/analysis/` | `eval.json`, `paper_numbers.json`, `paper_numbers.py`, historical reports (see its README) |
+| `infrastructure/template.yaml` | AWS resources for re-execution |
+| `data/cohort100_ab/dataset_validation.json` | the nine per-task dataset checks (paper section 3.1) |
+| `docs/preregistration_B0_vs_A1.md`, `docs/results_B0_vs_A1.md` | pre-registration (with deviation log) and results report for B0 vs A1 |
 
 Earlier wave-loop and scheduling prototypes from the parent project are not part of this release.
 

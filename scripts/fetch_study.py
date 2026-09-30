@@ -88,24 +88,10 @@ def fetch(name, spec):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("dataset", choices=["all", "longcot", "worfbench", "llmrouterbench"])
-    parser.add_argument("--embedding", action="store_true", help="Also fetch the pinned WorFEval embedding artifacts.")
+    parser.add_argument("dataset", choices=["longcot"])
     args = parser.parse_args()
     specs = json.loads((STUDY / "manifests/sources.lock.json").read_text())
-    for name in ([args.dataset] if args.dataset != "all" else specs):
-        fetch(name, specs[name])
-    if args.embedding:
-        manifest = json.loads((STUDY / "manifests/worfbench.embedding.json").read_text(encoding="utf-8"))
-        dest = STUDY / "raw/worfbench/embedding"
-        filenames = [str(Path(f["path"]).relative_to("raw/worfbench/embedding")).replace("\\", "/") for f in manifest["files"]]
-        hf = Path(sys.executable).parent / ("hf.exe" if os.name == "nt" else "hf")
-        env = os.environ.copy()
-        env["HF_HUB_DISABLE_IMPLICIT_TOKEN"] = "1"
-        subprocess.run([str(hf), "download", manifest["repo"], *filenames,
-                        "--revision", manifest["revision"], "--local-dir", str(dest), "--quiet"], env=env, check=True)
-        for entry in manifest["files"]:
-            if sha(STUDY / entry["path"]) != entry["sha256"]:
-                raise ValueError(f"Embedding hash mismatch: {entry['path']}")
+    fetch(args.dataset, specs[args.dataset])
 
 
 if __name__ == "__main__":

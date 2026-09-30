@@ -153,7 +153,7 @@ A1 / RouteFlow       S1 ──┬─► S2 ──┬─► S4 ──► S5
 few seconds. No API key, AWS account or extra packages are required.
 
 ```powershell
-python replication/verify_tier1.py
+python replication/verify.py
 ```
 
 The script regenerates the two analysis outputs from the run records and compares them byte for
@@ -177,47 +177,49 @@ software versions, seeds, costs and hardware.
 .
 ├── README.md
 ├── LICENSE
-├── replication/
-│   ├── README.md                      # full replication guide (grading, re-running on AWS)
-│   ├── CLAIMS.md                      # paper claims -> analysis outputs, reports and external sources
-│   ├── computational_requirements.md  # versions, seeds, costs, hardware
-│   ├── verify_tier1.py                # recompute and check the archived result summaries
-│   └── environment/                   # pinned dependencies
-├── src/
-│   ├── cohort100_ab/node_worker.py    # the subtask worker (one Lambda per subtask)
-│   ├── cohort100_ab/asl.py            # the sequential (B0) and parallel (A1 / RouteFlow) workflows
-│   ├── cohort100_ab/metrics.py        # latency and cost accounting
-│   ├── cohort100_ab/nodes.py          # each subtask's fixed input
-│   └── proposed/router.py             # RouteFlow's router: 41 rules, 2 modifiers, tier -> model presets
-├── scripts/
-│   ├── cohort100_ab_run.py            # runs B0 and A1
-│   ├── proposed_run.py                # runs P-DeepSeek (--router v3) and P-Sonnet (--router v1)
-│   ├── cohort100_ab_decompose.py      # measures decomposition time
-│   ├── cohort100_ab_grade.py          # grades final answers with the LongCoT checker
-│   ├── cohort100_ab_analyze.py        # B0 vs A1 analysis (pre-registered)
-│   └── ...                            # dataset fetch/import for grading
+├── replication/                         how to reproduce
+│   ├── README.md                        full guide: re-analysis, grading, re-running on AWS
+│   ├── CLAIMS.md                        paper claims -> analysis outputs, reports and external sources
+│   ├── computational_requirements.md    versions, seeds, costs, hardware
+│   ├── verify.py                        recompute and check the archived result summaries
+│   └── environment/                     pinned dependencies
+├── src/                                 code that runs in AWS and the router
+│   ├── cohort100_ab/node_worker.py      the subtask worker (one Lambda per subtask)
+│   ├── cohort100_ab/asl.py              the sequential (B0) and parallel (A1 / RouteFlow) workflows
+│   ├── cohort100_ab/metrics.py          latency and cost accounting
+│   ├── cohort100_ab/nodes.py            each subtask's fixed input
+│   └── proposed/router.py               RouteFlow's router: 41 rules, 2 modifiers, tier -> model presets
+├── scripts/                             code that runs locally
+│   ├── cohort100_ab_run.py              runs B0 and A1
+│   ├── proposed_run.py                  runs P-DeepSeek (--router v3) and P-Sonnet (--router v1)
+│   ├── cohort100_ab_decompose.py        measures decomposition time
+│   ├── cohort100_ab_grade.py            grades final answers with the LongCoT checker
+│   ├── cohort100_ab_analyze.py          B0 vs A1 analysis (pre-registered)
+│   ├── proposed_compare.py              per-task RouteFlow vs B0 / A1 comparison
+│   └── fetch_study.py, import_study.py, study/   fetch and import the pinned LongCoT release (grading)
 ├── data/
-│   ├── cohort100_ab/nodes.jsonl       # the 100 tasks' subtasks
-│   ├── cohort100_ab/dags.json         # their dependency graphs
-│   ├── cohort100_ab/runs/             # run records (see below)
-│   └── cohort100_ab/analysis/         # eval.json, paper_numbers.json and the script that builds them
-├── docs/                              # B0 vs A1 pre-registration and results report
-└── template.cohort100-ab.yaml         # AWS infrastructure (S3 bucket, IAM roles, two state machines)
+│   ├── cohort100_ab/
+│   │   ├── nodes.jsonl                  the 100 tasks' subtasks
+│   │   ├── dags.json                    their dependency graphs
+│   │   ├── dataset_validation.json      the nine per-task dataset checks
+│   │   ├── batches.json                 the seeded split of the 100 tasks into two baseline batches
+│   │   ├── runs/                        run records, one directory per run (see its README)
+│   │   ├── decompose/dec-1/             decomposition-time measurement
+│   │   └── analysis/                    result summaries and the script that builds them (see its README)
+│   └── study_v1/manifests/              pinned LongCoT sources and grader lockfile
+├── docs/
+│   ├── preregistration_B0_vs_A1.md      pre-registration of the B0 vs A1 comparison, with deviation log
+│   └── results_B0_vs_A1.md              results report for B0 vs A1
+└── infrastructure/template.yaml         AWS resources: S3 bucket, IAM roles, two state machines
 ```
 
-Run records, one directory per run:
+Internal names: `cohort100_ab` is the 100-task cohort and its baseline comparison, and
+`proposed` is RouteFlow. These names are kept because the run records store the hashes of these
+exact files.
 
-| Directory (`data/cohort100_ab/runs/`) | Configuration |
-|---|---|
-| `eval-b1`, `eval-b2` | B0 and A1 (two batches of 50 tasks) |
-| `proposed-3` | P-DeepSeek |
-| `proposed-4` | P-Sonnet |
-
-Each run directory contains:
-- `manifest.json`: configuration, routing and code hashes;
-- `rows.jsonl`: one line per task, with latency, tokens, cost and status;
-- `raw/`: every model call, the workflow history and the Lambda billing reports;
-- `grades.json`: per-task correctness.
+- **Which run is which:** `data/cohort100_ab/runs/README.md` maps each run directory to its
+  configuration and describes every file in it.
+- **What the analysis files hold:** `data/cohort100_ab/analysis/README.md` describes each output.
 
 ## Licence
 
