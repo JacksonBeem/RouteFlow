@@ -1,0 +1,1537 @@
+{
+ "run_name": "eval-b2",
+ "grades": [
+  {
+   "task_id": "longcot:chemistry:hard:hard3_20",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": true,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_20",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": true,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_32",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_32",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_26",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "medium",
+   "template": "med1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_26",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1CRN_query_10_mask_4",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1CRN_query_10_mask_4",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_0",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_0",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_10",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_10",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_30",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": false
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_30",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": false
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_6",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": false
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_6",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": false
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_28",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_28",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_48",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_48",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_49",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": false
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_49",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": false
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_14",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_14",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_6",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_6",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "medium",
+   "template": "med1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_39",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": true
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_39",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": true
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_43",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "medium",
+   "template": "med3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": true,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_43",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": true,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_4",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": false
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_4",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": false
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_6",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_6",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_43",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_43",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_16",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_16",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_24",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_24",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_12",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_12",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_45",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_45",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_20",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": false
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_20",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": true
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_1CAD_query_1_mask_2",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_1CAD_query_1_mask_2",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_27",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_27",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1GCN_query_4_mask_4",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1GCN_query_4_mask_4",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_23",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_23",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_1CRN_query_6_mask_2",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_1CRN_query_6_mask_2",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_1CAD_query_9_mask_2",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_1CAD_query_9_mask_2",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_8RXN_query_10_mask_2",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_8RXN_query_10_mask_2",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_31",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": true
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_31",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": true
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_17",
+   "arm": "A1",
+   "status": "FAILED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": false
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_17",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy2",
+   "strata": {
+    "easy2_policy": true,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {
+    "4": false
+   }
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_3",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_3",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1CRN_query_6_mask_4",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1CRN_query_6_mask_4",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_41",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_41",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_0",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": true,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_0",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": true,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_32",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_32",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "medium",
+   "template": "med1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_35",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_35",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_42",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_42",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_40",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_40",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_4",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "medium",
+   "template": "med3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": true,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_4",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "medium",
+   "template": "med3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": true,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_12",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_12",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_1",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_1",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_38",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_38",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_46",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_46",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "easy",
+   "template": "easy1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": true,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_19",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": true,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_19",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": true,
+   "difficulty": "medium",
+   "template": "med3",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": true,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_36",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_36",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1CAD_query_6_mask_4",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1CAD_query_6_mask_4",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "hard",
+   "template": "hard4",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_1",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_1",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med2",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_15",
+   "arm": "A1",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_15",
+   "arm": "B0",
+   "status": "SUCCEEDED",
+   "correct": false,
+   "difficulty": "medium",
+   "template": "med1",
+   "strata": {
+    "easy2_policy": false,
+    "exposed": false,
+    "flagged_impossible": false,
+    "partition": "evaluation"
+   },
+   "no_match": {}
+  }
+ ]
+}

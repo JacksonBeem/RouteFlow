@@ -1,0 +1,13354 @@
+{
+ "source": {
+  "xlsx": "<local>\\Downloads\\cohort_100.xlsx",
+  "xlsx_sha256": "84b469c77fb8174e7c4bba4ea306fa5959ec6c84638eefbef98d132e92748fd0",
+  "jsonl": "data\\study_v1\\audits\\chemistry_deps_v1\\cohort_100\\cohort_100.jsonl",
+  "jsonl_sha256": "764711f484e04c3e295fd69e6044f67da1b82423db0dafea24ead82374ccf7a0"
+ },
+ "definitions": {
+  "N": "number of subtasks (nodes)",
+  "D": "DAG depth = number of Kahn waves",
+  "W": "maximum wave width",
+  "CP_nodes": "critical-path length in nodes (= D for unit node weights)",
+  "b0_order": "B0-Sequential execution order: waves flattened, node id ascending",
+  "a1_waves": "A1-Parallel waves: all nodes of a wave run concurrently"
+ },
+ "summary": {
+  "tasks": 100,
+  "subtasks": 910,
+  "exposed_rows": 2,
+  "by_difficulty": {
+   "easy": {
+    "tasks": 33,
+    "N": 165
+   },
+   "medium": {
+    "tasks": 33,
+    "N": 289
+   },
+   "hard": {
+    "tasks": 34,
+    "N": 456
+   }
+  }
+ },
+ "tasks": [
+  {
+   "task_id": "longcot:chemistry:easy:easy1_6",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_48",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_9",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_3",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_14",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_38",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_0",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": true,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_49",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_12",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_40",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_39",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_10",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_46",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_35",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_32",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_11",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy1_47",
+   "difficulty": "easy",
+   "template": "easy1",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    4,
+    2,
+    3,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_43",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_20",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_17",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_4",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_39",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_14",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_6",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_47",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_8",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_30",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_18",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_25",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_23",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_26",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_49",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:easy:easy2_31",
+   "difficulty": "easy",
+   "template": "easy2",
+   "exposed_row": false,
+   "N": 5,
+   "D": 4,
+   "W": 2,
+   "CP_nodes": 4,
+   "edge_count": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [
+     3
+    ],
+    "5": [
+     4
+    ]
+   },
+   "final_node": 5,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_45",
+   "difficulty": "medium",
+   "template": "med1",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_3",
+   "difficulty": "medium",
+   "template": "med1",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_12",
+   "difficulty": "medium",
+   "template": "med1",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_15",
+   "difficulty": "medium",
+   "template": "med1",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_6",
+   "difficulty": "medium",
+   "template": "med1",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_32",
+   "difficulty": "medium",
+   "template": "med1",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_26",
+   "difficulty": "medium",
+   "template": "med1",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_37",
+   "difficulty": "medium",
+   "template": "med1",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med1_20",
+   "difficulty": "medium",
+   "template": "med1",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_22",
+   "difficulty": "medium",
+   "template": "med2",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_12",
+   "difficulty": "medium",
+   "template": "med2",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_27",
+   "difficulty": "medium",
+   "template": "med2",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_24",
+   "difficulty": "medium",
+   "template": "med2",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_45",
+   "difficulty": "medium",
+   "template": "med2",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_1",
+   "difficulty": "medium",
+   "template": "med2",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_19",
+   "difficulty": "medium",
+   "template": "med2",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med2_17",
+   "difficulty": "medium",
+   "template": "med2",
+   "exposed_row": false,
+   "N": 9,
+   "D": 4,
+   "W": 5,
+   "CP_nodes": 4,
+   "edge_count": 9,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [],
+    "7": [],
+    "8": [
+     6,
+     7
+    ],
+    "9": [
+     5,
+     7,
+     8
+    ]
+   },
+   "final_node": 9,
+   "b0_order": [
+    1,
+    2,
+    4,
+    6,
+    7,
+    3,
+    8,
+    5,
+    9
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    9
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_5",
+   "difficulty": "medium",
+   "template": "med3",
+   "exposed_row": false,
+   "N": 11,
+   "D": 6,
+   "W": 2,
+   "CP_nodes": 6,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1
+    ],
+    "4": [
+     2
+    ],
+    "5": [
+     3
+    ],
+    "6": [
+     4
+    ],
+    "7": [
+     5
+    ],
+    "8": [
+     6
+    ],
+    "9": [
+     7
+    ],
+    "10": [
+     8
+    ],
+    "11": [
+     9,
+     10
+    ]
+   },
+   "final_node": 11,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_43",
+   "difficulty": "medium",
+   "template": "med3",
+   "exposed_row": false,
+   "N": 11,
+   "D": 6,
+   "W": 2,
+   "CP_nodes": 6,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1
+    ],
+    "4": [
+     2
+    ],
+    "5": [
+     3
+    ],
+    "6": [
+     4
+    ],
+    "7": [
+     5
+    ],
+    "8": [
+     6
+    ],
+    "9": [
+     7
+    ],
+    "10": [
+     8
+    ],
+    "11": [
+     9,
+     10
+    ]
+   },
+   "final_node": 11,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_4",
+   "difficulty": "medium",
+   "template": "med3",
+   "exposed_row": false,
+   "N": 11,
+   "D": 6,
+   "W": 2,
+   "CP_nodes": 6,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1
+    ],
+    "4": [
+     2
+    ],
+    "5": [
+     3
+    ],
+    "6": [
+     4
+    ],
+    "7": [
+     5
+    ],
+    "8": [
+     6
+    ],
+    "9": [
+     7
+    ],
+    "10": [
+     8
+    ],
+    "11": [
+     9,
+     10
+    ]
+   },
+   "final_node": 11,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_1",
+   "difficulty": "medium",
+   "template": "med3",
+   "exposed_row": false,
+   "N": 11,
+   "D": 6,
+   "W": 2,
+   "CP_nodes": 6,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1
+    ],
+    "4": [
+     2
+    ],
+    "5": [
+     3
+    ],
+    "6": [
+     4
+    ],
+    "7": [
+     5
+    ],
+    "8": [
+     6
+    ],
+    "9": [
+     7
+    ],
+    "10": [
+     8
+    ],
+    "11": [
+     9,
+     10
+    ]
+   },
+   "final_node": 11,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_19",
+   "difficulty": "medium",
+   "template": "med3",
+   "exposed_row": false,
+   "N": 11,
+   "D": 6,
+   "W": 2,
+   "CP_nodes": 6,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1
+    ],
+    "4": [
+     2
+    ],
+    "5": [
+     3
+    ],
+    "6": [
+     4
+    ],
+    "7": [
+     5
+    ],
+    "8": [
+     6
+    ],
+    "9": [
+     7
+    ],
+    "10": [
+     8
+    ],
+    "11": [
+     9,
+     10
+    ]
+   },
+   "final_node": 11,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_16",
+   "difficulty": "medium",
+   "template": "med3",
+   "exposed_row": false,
+   "N": 11,
+   "D": 6,
+   "W": 2,
+   "CP_nodes": 6,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1
+    ],
+    "4": [
+     2
+    ],
+    "5": [
+     3
+    ],
+    "6": [
+     4
+    ],
+    "7": [
+     5
+    ],
+    "8": [
+     6
+    ],
+    "9": [
+     7
+    ],
+    "10": [
+     8
+    ],
+    "11": [
+     9,
+     10
+    ]
+   },
+   "final_node": 11,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_11",
+   "difficulty": "medium",
+   "template": "med3",
+   "exposed_row": false,
+   "N": 11,
+   "D": 6,
+   "W": 2,
+   "CP_nodes": 6,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1
+    ],
+    "4": [
+     2
+    ],
+    "5": [
+     3
+    ],
+    "6": [
+     4
+    ],
+    "7": [
+     5
+    ],
+    "8": [
+     6
+    ],
+    "9": [
+     7
+    ],
+    "10": [
+     8
+    ],
+    "11": [
+     9,
+     10
+    ]
+   },
+   "final_node": 11,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:med3_45",
+   "difficulty": "medium",
+   "template": "med3",
+   "exposed_row": false,
+   "N": 11,
+   "D": 6,
+   "W": 2,
+   "CP_nodes": 6,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "redundant_edges": [],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1
+    ],
+    "4": [
+     2
+    ],
+    "5": [
+     3
+    ],
+    "6": [
+     4
+    ],
+    "7": [
+     5
+    ],
+    "8": [
+     6
+    ],
+    "9": [
+     7
+    ],
+    "10": [
+     8
+    ],
+    "11": [
+     9,
+     10
+    ]
+   },
+   "final_node": 11,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "a1_waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_1CAD_query_9_mask_2",
+   "difficulty": "medium",
+   "template": "med4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_8RXN_query_9_mask_2",
+   "difficulty": "medium",
+   "template": "med4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_1CRN_query_2_mask_2",
+   "difficulty": "medium",
+   "template": "med4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_1PGA_query_6_mask_2",
+   "difficulty": "medium",
+   "template": "med4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_1CRN_query_3_mask_2",
+   "difficulty": "medium",
+   "template": "med4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_1CAD_query_1_mask_2",
+   "difficulty": "medium",
+   "template": "med4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_8RXN_query_10_mask_2",
+   "difficulty": "medium",
+   "template": "med4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:medium:protein_1CRN_query_6_mask_2",
+   "difficulty": "medium",
+   "template": "med4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_14",
+   "difficulty": "hard",
+   "template": "hard1",
+   "exposed_row": false,
+   "N": 16,
+   "D": 9,
+   "W": 5,
+   "CP_nodes": 9,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [],
+    "16": [
+     12,
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    15,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_40",
+   "difficulty": "hard",
+   "template": "hard1",
+   "exposed_row": false,
+   "N": 16,
+   "D": 9,
+   "W": 5,
+   "CP_nodes": 9,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [],
+    "16": [
+     12,
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    15,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_36",
+   "difficulty": "hard",
+   "template": "hard1",
+   "exposed_row": false,
+   "N": 16,
+   "D": 9,
+   "W": 5,
+   "CP_nodes": 9,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [],
+    "16": [
+     12,
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    15,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_29",
+   "difficulty": "hard",
+   "template": "hard1",
+   "exposed_row": false,
+   "N": 16,
+   "D": 9,
+   "W": 5,
+   "CP_nodes": 9,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [],
+    "16": [
+     12,
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    15,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_6",
+   "difficulty": "hard",
+   "template": "hard1",
+   "exposed_row": false,
+   "N": 16,
+   "D": 9,
+   "W": 5,
+   "CP_nodes": 9,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [],
+    "16": [
+     12,
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    15,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_13",
+   "difficulty": "hard",
+   "template": "hard1",
+   "exposed_row": false,
+   "N": 16,
+   "D": 9,
+   "W": 5,
+   "CP_nodes": 9,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [],
+    "16": [
+     12,
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    15,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_11",
+   "difficulty": "hard",
+   "template": "hard1",
+   "exposed_row": false,
+   "N": 16,
+   "D": 9,
+   "W": 5,
+   "CP_nodes": 9,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [],
+    "16": [
+     12,
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    15,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_28",
+   "difficulty": "hard",
+   "template": "hard1",
+   "exposed_row": false,
+   "N": 16,
+   "D": 9,
+   "W": 5,
+   "CP_nodes": 9,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [],
+    "16": [
+     12,
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    15,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard1_45",
+   "difficulty": "hard",
+   "template": "hard1",
+   "exposed_row": false,
+   "N": 16,
+   "D": 9,
+   "W": 5,
+   "CP_nodes": 9,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [],
+    "16": [
+     12,
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    15,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_39",
+   "difficulty": "hard",
+   "template": "hard2",
+   "exposed_row": false,
+   "N": 16,
+   "D": 10,
+   "W": 5,
+   "CP_nodes": 10,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     7,
+     10
+    ],
+    "12": [
+     5,
+     11
+    ],
+    "13": [],
+    "14": [
+     12,
+     13
+    ],
+    "15": [
+     5,
+     13,
+     14
+    ],
+    "16": [
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    3,
+    9,
+    5,
+    10,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_28",
+   "difficulty": "hard",
+   "template": "hard2",
+   "exposed_row": false,
+   "N": 16,
+   "D": 10,
+   "W": 5,
+   "CP_nodes": 10,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     7,
+     10
+    ],
+    "12": [
+     5,
+     11
+    ],
+    "13": [],
+    "14": [
+     12,
+     13
+    ],
+    "15": [
+     5,
+     13,
+     14
+    ],
+    "16": [
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    3,
+    9,
+    5,
+    10,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_23",
+   "difficulty": "hard",
+   "template": "hard2",
+   "exposed_row": false,
+   "N": 16,
+   "D": 10,
+   "W": 5,
+   "CP_nodes": 10,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     7,
+     10
+    ],
+    "12": [
+     5,
+     11
+    ],
+    "13": [],
+    "14": [
+     12,
+     13
+    ],
+    "15": [
+     5,
+     13,
+     14
+    ],
+    "16": [
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    3,
+    9,
+    5,
+    10,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_15",
+   "difficulty": "hard",
+   "template": "hard2",
+   "exposed_row": false,
+   "N": 16,
+   "D": 10,
+   "W": 5,
+   "CP_nodes": 10,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     7,
+     10
+    ],
+    "12": [
+     5,
+     11
+    ],
+    "13": [],
+    "14": [
+     12,
+     13
+    ],
+    "15": [
+     5,
+     13,
+     14
+    ],
+    "16": [
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    3,
+    9,
+    5,
+    10,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_20",
+   "difficulty": "hard",
+   "template": "hard2",
+   "exposed_row": false,
+   "N": 16,
+   "D": 10,
+   "W": 5,
+   "CP_nodes": 10,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     7,
+     10
+    ],
+    "12": [
+     5,
+     11
+    ],
+    "13": [],
+    "14": [
+     12,
+     13
+    ],
+    "15": [
+     5,
+     13,
+     14
+    ],
+    "16": [
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    3,
+    9,
+    5,
+    10,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_43",
+   "difficulty": "hard",
+   "template": "hard2",
+   "exposed_row": false,
+   "N": 16,
+   "D": 10,
+   "W": 5,
+   "CP_nodes": 10,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     7,
+     10
+    ],
+    "12": [
+     5,
+     11
+    ],
+    "13": [],
+    "14": [
+     12,
+     13
+    ],
+    "15": [
+     5,
+     13,
+     14
+    ],
+    "16": [
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    3,
+    9,
+    5,
+    10,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_41",
+   "difficulty": "hard",
+   "template": "hard2",
+   "exposed_row": false,
+   "N": 16,
+   "D": 10,
+   "W": 5,
+   "CP_nodes": 10,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     7,
+     10
+    ],
+    "12": [
+     5,
+     11
+    ],
+    "13": [],
+    "14": [
+     12,
+     13
+    ],
+    "15": [
+     5,
+     13,
+     14
+    ],
+    "16": [
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    3,
+    9,
+    5,
+    10,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_8",
+   "difficulty": "hard",
+   "template": "hard2",
+   "exposed_row": false,
+   "N": 16,
+   "D": 10,
+   "W": 5,
+   "CP_nodes": 10,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     7,
+     10
+    ],
+    "12": [
+     5,
+     11
+    ],
+    "13": [],
+    "14": [
+     12,
+     13
+    ],
+    "15": [
+     5,
+     13,
+     14
+    ],
+    "16": [
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    3,
+    9,
+    5,
+    10,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard2_0",
+   "difficulty": "hard",
+   "template": "hard2",
+   "exposed_row": true,
+   "N": 16,
+   "D": 10,
+   "W": 5,
+   "CP_nodes": 10,
+   "edge_count": 19,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     7,
+     10
+    ],
+    "12": [
+     5,
+     11
+    ],
+    "13": [],
+    "14": [
+     12,
+     13
+    ],
+    "15": [
+     5,
+     13,
+     14
+    ],
+    "16": [
+     14,
+     15
+    ]
+   },
+   "final_node": 16,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    13,
+    3,
+    9,
+    5,
+    10,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    11,
+    12,
+    14,
+    15,
+    16
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_7",
+   "difficulty": "hard",
+   "template": "hard3",
+   "exposed_row": false,
+   "N": 15,
+   "D": 9,
+   "W": 4,
+   "CP_nodes": 9,
+   "edge_count": 18,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [
+     12,
+     14
+    ]
+   },
+   "final_node": 15,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    15
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_16",
+   "difficulty": "hard",
+   "template": "hard3",
+   "exposed_row": false,
+   "N": 15,
+   "D": 9,
+   "W": 4,
+   "CP_nodes": 9,
+   "edge_count": 18,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [
+     12,
+     14
+    ]
+   },
+   "final_node": 15,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    15
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_42",
+   "difficulty": "hard",
+   "template": "hard3",
+   "exposed_row": false,
+   "N": 15,
+   "D": 9,
+   "W": 4,
+   "CP_nodes": 9,
+   "edge_count": 18,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [
+     12,
+     14
+    ]
+   },
+   "final_node": 15,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    15
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_38",
+   "difficulty": "hard",
+   "template": "hard3",
+   "exposed_row": false,
+   "N": 15,
+   "D": 9,
+   "W": 4,
+   "CP_nodes": 9,
+   "edge_count": 18,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [
+     12,
+     14
+    ]
+   },
+   "final_node": 15,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    15
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_43",
+   "difficulty": "hard",
+   "template": "hard3",
+   "exposed_row": false,
+   "N": 15,
+   "D": 9,
+   "W": 4,
+   "CP_nodes": 9,
+   "edge_count": 18,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [
+     12,
+     14
+    ]
+   },
+   "final_node": 15,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    15
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_20",
+   "difficulty": "hard",
+   "template": "hard3",
+   "exposed_row": false,
+   "N": 15,
+   "D": 9,
+   "W": 4,
+   "CP_nodes": 9,
+   "edge_count": 18,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [
+     12,
+     14
+    ]
+   },
+   "final_node": 15,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    15
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_13",
+   "difficulty": "hard",
+   "template": "hard3",
+   "exposed_row": false,
+   "N": 15,
+   "D": 9,
+   "W": 4,
+   "CP_nodes": 9,
+   "edge_count": 18,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [
+     12,
+     14
+    ]
+   },
+   "final_node": 15,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    15
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:hard3_3",
+   "difficulty": "hard",
+   "template": "hard3",
+   "exposed_row": false,
+   "N": 15,
+   "D": 9,
+   "W": 4,
+   "CP_nodes": 9,
+   "edge_count": 18,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [],
+    "3": [
+     1,
+     2
+    ],
+    "4": [],
+    "5": [
+     3,
+     4
+    ],
+    "6": [
+     5
+    ],
+    "7": [
+     6
+    ],
+    "8": [],
+    "9": [
+     8
+    ],
+    "10": [
+     9
+    ],
+    "11": [
+     10
+    ],
+    "12": [
+     7,
+     11
+    ],
+    "13": [
+     5,
+     12
+    ],
+    "14": [
+     5,
+     8,
+     13
+    ],
+    "15": [
+     12,
+     14
+    ]
+   },
+   "final_node": 15,
+   "b0_order": [
+    1,
+    2,
+    4,
+    8,
+    3,
+    9,
+    5,
+    10,
+    6,
+    11,
+    7,
+    12,
+    13,
+    14,
+    15
+   ],
+   "a1_waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    12,
+    13,
+    14,
+    15
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1CRN_query_10_mask_4",
+   "difficulty": "hard",
+   "template": "hard4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1PGA_query_3_mask_4",
+   "difficulty": "hard",
+   "template": "hard4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1CRN_query_6_mask_4",
+   "difficulty": "hard",
+   "template": "hard4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1CRN_query_3_mask_4",
+   "difficulty": "hard",
+   "template": "hard4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1GCN_query_4_mask_4",
+   "difficulty": "hard",
+   "template": "hard4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1CAD_query_2_mask_4",
+   "difficulty": "hard",
+   "template": "hard4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1PGA_query_7_mask_4",
+   "difficulty": "hard",
+   "template": "hard4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "task_id": "longcot:chemistry:hard:protein_1CAD_query_6_mask_4",
+   "difficulty": "hard",
+   "template": "hard4",
+   "exposed_row": false,
+   "N": 6,
+   "D": 5,
+   "W": 2,
+   "CP_nodes": 5,
+   "edge_count": 10,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "predecessors": {
+    "1": [],
+    "2": [
+     1
+    ],
+    "3": [
+     1
+    ],
+    "4": [
+     1,
+     2,
+     3
+    ],
+    "5": [
+     1,
+     4
+    ],
+    "6": [
+     1,
+     4,
+     5
+    ]
+   },
+   "final_node": 6,
+   "b0_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "a1_waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ],
+   "critical_nodes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ ]
+}

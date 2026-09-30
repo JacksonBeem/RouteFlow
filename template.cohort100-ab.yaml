@@ -1,0 +1,100 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >
+  cohort_100 B0/A1 run. Shared infrastructure only: the per-subtask Lambdas are
+  created and deleted per row by scripts/cohort100_ab_run.py. The two state
+  machines start with a placeholder definition; the runner publishes a version
+  per row (B0 chain / A1 waves over that row's functions).
+
+Parameters:
+  OpenRouterSecret:
+    Type: String
+    Default: dag-orchestrator/openrouter
+  FunctionPrefix:
+    Type: String
+    Default: c100ab-
+
+Resources:
+  ResultsBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+  NodeRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal: {Service: lambda.amazonaws.com}
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: node
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: [s3:GetObject, s3:PutObject]
+                Resource: !Sub ${ResultsBucket.Arn}/runs/*
+              - Effect: Allow
+                Action: s3:ListBucket
+                Resource: !GetAtt ResultsBucket.Arn
+              - Effect: Allow
+                Action: secretsmanager:GetSecretValue
+                Resource: !Sub arn:aws:secretsmanager:${AWS::Region}:${AWS::AccountId}:secret:${OpenRouterSecret}-*
+
+  StatesRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal: {Service: states.amazonaws.com}
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: invoke-row-functions
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: lambda:InvokeFunction
+                Resource:
+                  - !Sub arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${FunctionPrefix}*
+                  - !Sub arn:aws:lambda:${AWS::Region}:${AWS::AccountId}:function:${FunctionPrefix}*:*
+
+  B0Sequential:
+    Type: AWS::StepFunctions::StateMachine
+    Properties:
+      StateMachineName: B0-Sequential
+      StateMachineType: STANDARD
+      RoleArn: !GetAtt StatesRole.Arn
+      DefinitionString: '{"Comment":"placeholder; the runner publishes one version per row","StartAt":"Placeholder","States":{"Placeholder":{"Type":"Succeed"}}}'
+
+  A1Parallel:
+    Type: AWS::StepFunctions::StateMachine
+    Properties:
+      StateMachineName: A1-Parallel
+      StateMachineType: STANDARD
+      RoleArn: !GetAtt StatesRole.Arn
+      DefinitionString: '{"Comment":"placeholder; the runner publishes one version per row","StartAt":"Placeholder","States":{"Placeholder":{"Type":"Succeed"}}}'
+
+Outputs:
+  Bucket:
+    Value: !Ref ResultsBucket
+  NodeRoleArn:
+    Value: !GetAtt NodeRole.Arn
+  B0StateMachineArn:
+    Value: !Ref B0Sequential
+  A1StateMachineArn:
+    Value: !Ref A1Parallel
+  OpenRouterSecret:
+    Value: !Ref OpenRouterSecret
+  FunctionPrefix:
+    Value: !Ref FunctionPrefix

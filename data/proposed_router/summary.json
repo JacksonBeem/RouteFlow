@@ -1,0 +1,349 @@
+{
+ "version": "proposed-router-v2",
+ "models": {
+  "easy": "deepseek/deepseek-v4.1-flash",
+  "medium": "deepseek/deepseek-v4.1-flash",
+  "hard": "openai/gpt-5.2"
+ },
+ "splits": {
+  "cohort_100": {
+   "tasks": 100,
+   "nodes": 910,
+   "unmatched": 0,
+   "tiers": {
+    "easy": 78,
+    "medium": 338,
+    "hard": 494
+   },
+   "final_tiers": {
+    "easy": 0,
+    "medium": 16,
+    "hard": 84
+   },
+   "bumps": {
+    "multi_candidate": 32
+   },
+   "properties": {
+    "reaction_product": 259,
+    "implicit_hydrogens": 52,
+    "smiles_equivalence": 44,
+    "functional_group_select": 43,
+    "topological_diameter": 26,
+    "substructure_yesno": 26,
+    "heteroatoms": 25,
+    "ring_count_aromatic": 23,
+    "morgan_fingerprints": 18,
+    "adjacency_matrix_ring": 18,
+    "sssr": 18,
+    "rotatable_bonds": 18,
+    "empirical_formula": 17,
+    "wiener_index": 17,
+    "degree_unsaturation": 17,
+    "molecular_weight_range": 16,
+    "atom_bond_constraint": 16,
+    "double_bonds": 16,
+    "protein_gap": 16,
+    "protein_compactness": 16,
+    "protein_dihedral": 16,
+    "protein_secondary": 16,
+    "protein_residue_identity": 16,
+    "protein_residue_rank": 16,
+    "ring_count_aliphatic": 11,
+    "conditional_on_prior": 9,
+    "mcs_similarity": 9,
+    "connectivity": 9,
+    "heavy_atoms": 9,
+    "lipinski": 9,
+    "balaban_j": 9,
+    "atom_degree": 8,
+    "total_hydrogens": 8,
+    "ring_count_compare": 8,
+    "atom_bond_sum": 8,
+    "eccentricity": 8,
+    "graph_center": 8,
+    "branching_index": 8,
+    "cyclic_ratio": 8,
+    "formal_charge": 8,
+    "mcs_smiles": 8
+   },
+   "templates": {
+    "easy1": {
+     "easy": 17,
+     "medium": 51,
+     "hard": 17
+    },
+    "easy2": {
+     "easy": 0,
+     "medium": 16,
+     "hard": 64
+    },
+    "hard1": {
+     "easy": 27,
+     "medium": 36,
+     "hard": 81
+    },
+    "hard2": {
+     "easy": 18,
+     "medium": 63,
+     "hard": 63
+    },
+    "hard3": {
+     "easy": 8,
+     "medium": 40,
+     "hard": 72
+    },
+    "hard4": {
+     "easy": 0,
+     "medium": 16,
+     "hard": 32
+    },
+    "med1": {
+     "easy": 0,
+     "medium": 36,
+     "hard": 45
+    },
+    "med2": {
+     "easy": 8,
+     "medium": 40,
+     "hard": 24
+    },
+    "med3": {
+     "easy": 0,
+     "medium": 24,
+     "hard": 64
+    },
+    "med4": {
+     "easy": 0,
+     "medium": 16,
+     "hard": 32
+    }
+   }
+  },
+  "development": {
+   "tasks": 38,
+   "nodes": 410,
+   "unmatched": 0,
+   "tiers": {
+    "easy": 36,
+    "medium": 146,
+    "hard": 228
+   },
+   "final_tiers": {
+    "easy": 0,
+    "medium": 8,
+    "hard": 30
+   },
+   "bumps": {
+    "multi_candidate": 6
+   },
+   "properties": {
+    "reaction_product": 122,
+    "implicit_hydrogens": 17,
+    "smiles_equivalence": 16,
+    "functional_group_select": 16,
+    "substructure_yesno": 15,
+    "topological_diameter": 13,
+    "adjacency_matrix_ring": 10,
+    "wiener_index": 10,
+    "sssr": 10,
+    "rotatable_bonds": 10,
+    "degree_unsaturation": 10,
+    "morgan_fingerprints": 8,
+    "empirical_formula": 8,
+    "double_bonds": 8,
+    "ring_count_aromatic": 7,
+    "heteroatoms": 6,
+    "ring_count_aliphatic": 6,
+    "protein_gap": 6,
+    "protein_compactness": 6,
+    "protein_dihedral": 6,
+    "protein_secondary": 6,
+    "protein_residue_identity": 6,
+    "protein_residue_rank": 6,
+    "conditional_on_prior": 5,
+    "mcs_similarity": 5,
+    "connectivity": 5,
+    "heavy_atoms": 5,
+    "lipinski": 5,
+    "balaban_j": 5,
+    "atom_bond_sum": 5,
+    "eccentricity": 5,
+    "graph_center": 5,
+    "branching_index": 5,
+    "cyclic_ratio": 5,
+    "formal_charge": 5,
+    "mcs_smiles": 5,
+    "ring_count_compare": 5,
+    "molecular_weight_range": 3,
+    "atom_bond_constraint": 3,
+    "atom_degree": 3,
+    "total_hydrogens": 3
+   },
+   "templates": {
+    "easy1": {
+     "easy": 3,
+     "medium": 9,
+     "hard": 3
+    },
+    "easy2": {
+     "easy": 0,
+     "medium": 3,
+     "hard": 12
+    },
+    "hard1": {
+     "easy": 15,
+     "medium": 20,
+     "hard": 45
+    },
+    "hard2": {
+     "easy": 10,
+     "medium": 35,
+     "hard": 35
+    },
+    "hard3": {
+     "easy": 5,
+     "medium": 25,
+     "hard": 45
+    },
+    "hard4": {
+     "easy": 0,
+     "medium": 6,
+     "hard": 12
+    },
+    "med1": {
+     "easy": 0,
+     "medium": 12,
+     "hard": 15
+    },
+    "med2": {
+     "easy": 3,
+     "medium": 15,
+     "hard": 9
+    },
+    "med3": {
+     "easy": 0,
+     "medium": 15,
+     "hard": 40
+    },
+    "med4": {
+     "easy": 0,
+     "medium": 6,
+     "hard": 12
+    }
+   }
+  },
+  "reserve": {
+   "tasks": 362,
+   "nodes": 3580,
+   "unmatched": 0,
+   "tiers": {
+    "easy": 286,
+    "medium": 1316,
+    "hard": 1978
+   },
+   "final_tiers": {
+    "easy": 0,
+    "medium": 76,
+    "hard": 286
+   },
+   "bumps": {
+    "multi_candidate": 62
+   },
+   "properties": {
+    "reaction_product": 1019,
+    "implicit_hydrogens": 181,
+    "functional_group_select": 141,
+    "smiles_equivalence": 140,
+    "topological_diameter": 111,
+    "substructure_yesno": 109,
+    "protein_gap": 78,
+    "protein_compactness": 78,
+    "protein_dihedral": 78,
+    "protein_secondary": 78,
+    "protein_residue_identity": 78,
+    "protein_residue_rank": 78,
+    "double_bonds": 76,
+    "empirical_formula": 75,
+    "morgan_fingerprints": 74,
+    "wiener_index": 73,
+    "degree_unsaturation": 73,
+    "ring_count_aromatic": 72,
+    "adjacency_matrix_ring": 72,
+    "sssr": 72,
+    "rotatable_bonds": 72,
+    "heteroatoms": 69,
+    "atom_degree": 39,
+    "total_hydrogens": 39,
+    "atom_bond_sum": 37,
+    "eccentricity": 37,
+    "graph_center": 37,
+    "branching_index": 37,
+    "cyclic_ratio": 37,
+    "formal_charge": 37,
+    "mcs_smiles": 37,
+    "ring_count_compare": 37,
+    "conditional_on_prior": 36,
+    "mcs_similarity": 36,
+    "connectivity": 36,
+    "heavy_atoms": 36,
+    "lipinski": 36,
+    "balaban_j": 36,
+    "molecular_weight_range": 31,
+    "atom_bond_constraint": 31,
+    "ring_count_aliphatic": 31
+   },
+   "templates": {
+    "easy1": {
+     "easy": 30,
+     "medium": 90,
+     "hard": 30
+    },
+    "easy2": {
+     "easy": 0,
+     "medium": 31,
+     "hard": 124
+    },
+    "hard1": {
+     "easy": 108,
+     "medium": 144,
+     "hard": 324
+    },
+    "hard2": {
+     "easy": 72,
+     "medium": 252,
+     "hard": 252
+    },
+    "hard3": {
+     "easy": 37,
+     "medium": 185,
+     "hard": 333
+    },
+    "hard4": {
+     "easy": 0,
+     "medium": 78,
+     "hard": 156
+    },
+    "med1": {
+     "easy": 0,
+     "medium": 152,
+     "hard": 190
+    },
+    "med2": {
+     "easy": 39,
+     "medium": 195,
+     "hard": 117
+    },
+    "med3": {
+     "easy": 0,
+     "medium": 111,
+     "hard": 296
+    },
+    "med4": {
+     "easy": 0,
+     "medium": 78,
+     "hard": 156
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "RouteFlow: replication package for \"Dependency-Aware Task Decomposition and Parallel Multi-LLM Execution on Serverless Workflows\"",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "serverless computing",
+    "LLM orchestration",
+    "model routing",
+    "task decomposition",
+    "AWS Step Functions",
+    "replication package"
+  ],
+  "description": "Replication package for a paper under double-blind review. It contains the code, per-task run records and analysis outputs for the four configurations evaluated in the paper (B0, A1, P-DeepSeek, P-Sonnet) on 100 LongCoT chemistry tasks. <code>python replication/verify_tier1.py</code> regenerates every number in the paper from the shipped records (Python 3.14, standard library only, a few seconds), and <code>replication/CLAIMS.md</code> maps each number to its source. Instructions for re-grading and re-execution are in <code>replication/README.md</code>. AWS account identifiers are redacted. LongCoT-derived data remains under LongCoT's MIT License; please do not use it for model training."
+}

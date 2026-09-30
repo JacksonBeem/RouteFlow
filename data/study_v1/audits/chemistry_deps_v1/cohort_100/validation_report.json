@@ -1,0 +1,10026 @@
+{
+ "seed": 20260922,
+ "quota": {
+  "easy": {
+   "easy1": 17,
+   "easy2": 16
+  },
+  "medium": {
+   "med1": 9,
+   "med2": 8,
+   "med3": 8,
+   "med4": 8
+  },
+  "hard": {
+   "hard1": 9,
+   "hard2": 9,
+   "hard3": 8,
+   "hard4": 8
+  }
+ },
+ "cohort_size": 100,
+ "status_counts": {
+  "easy:pass": 33,
+  "hard:pass": 34,
+  "medium:pass": 33
+ },
+ "check_failures": {},
+ "redundant_edge_tasks": 59,
+ "exposed_rows_in_cohort": [
+  "longcot:chemistry:easy:easy1_0",
+  "longcot:chemistry:hard:hard2_0"
+ ],
+ "tasks": [
+  {
+   "id": "longcot:chemistry:easy:easy1_6",
+   "source_split": "easy",
+   "source_id": "easy1_6",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_48",
+   "source_split": "easy",
+   "source_id": "easy1_48",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_9",
+   "source_split": "easy",
+   "source_id": "easy1_9",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_3",
+   "source_split": "easy",
+   "source_id": "easy1_3",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_14",
+   "source_split": "easy",
+   "source_id": "easy1_14",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_38",
+   "source_split": "easy",
+   "source_id": "easy1_38",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_0",
+   "source_split": "easy",
+   "source_id": "easy1_0",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": true,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_49",
+   "source_split": "easy",
+   "source_id": "easy1_49",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_12",
+   "source_split": "easy",
+   "source_id": "easy1_12",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_40",
+   "source_split": "easy",
+   "source_id": "easy1_40",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_39",
+   "source_split": "easy",
+   "source_id": "easy1_39",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_10",
+   "source_split": "easy",
+   "source_id": "easy1_10",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_46",
+   "source_split": "easy",
+   "source_id": "easy1_46",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_35",
+   "source_split": "easy",
+   "source_id": "easy1_35",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_32",
+   "source_split": "easy",
+   "source_id": "easy1_32",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_11",
+   "source_split": "easy",
+   "source_id": "easy1_11",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy1_47",
+   "source_split": "easy",
+   "source_id": "easy1_47",
+   "template": "easy1",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     4
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_43",
+   "source_split": "easy",
+   "source_id": "easy2_43",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_20",
+   "source_split": "easy",
+   "source_id": "easy2_20",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_17",
+   "source_split": "easy",
+   "source_id": "easy2_17",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_4",
+   "source_split": "easy",
+   "source_id": "easy2_4",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_39",
+   "source_split": "easy",
+   "source_id": "easy2_39",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_14",
+   "source_split": "easy",
+   "source_id": "easy2_14",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_6",
+   "source_split": "easy",
+   "source_id": "easy2_6",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_47",
+   "source_split": "easy",
+   "source_id": "easy2_47",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_8",
+   "source_split": "easy",
+   "source_id": "easy2_8",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_30",
+   "source_split": "easy",
+   "source_id": "easy2_30",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_18",
+   "source_split": "easy",
+   "source_id": "easy2_18",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_25",
+   "source_split": "easy",
+   "source_id": "easy2_25",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_23",
+   "source_split": "easy",
+   "source_id": "easy2_23",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_26",
+   "source_split": "easy",
+   "source_id": "easy2_26",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_49",
+   "source_split": "easy",
+   "source_id": "easy2_49",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:easy:easy2_31",
+   "source_split": "easy",
+   "source_id": "easy2_31",
+   "template": "easy2",
+   "difficulty": "easy",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {
+    "forward_mention": 2,
+    "backtrack": 2,
+    "alias_subproblem_mismatch": 1
+   },
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 5,
+   "depth": 4,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med1_45",
+   "source_split": "medium",
+   "source_id": "med1_45",
+   "template": "med1",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med1_3",
+   "source_split": "medium",
+   "source_id": "med1_3",
+   "template": "med1",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med1_12",
+   "source_split": "medium",
+   "source_id": "med1_12",
+   "template": "med1",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med1_15",
+   "source_split": "medium",
+   "source_id": "med1_15",
+   "template": "med1",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med1_6",
+   "source_split": "medium",
+   "source_id": "med1_6",
+   "template": "med1",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med1_32",
+   "source_split": "medium",
+   "source_id": "med1_32",
+   "template": "med1",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med1_26",
+   "source_split": "medium",
+   "source_id": "med1_26",
+   "template": "med1",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med1_37",
+   "source_split": "medium",
+   "source_id": "med1_37",
+   "template": "med1",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med1_20",
+   "source_split": "medium",
+   "source_id": "med1_20",
+   "template": "med1",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med2_22",
+   "source_split": "medium",
+   "source_id": "med2_22",
+   "template": "med2",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med2_12",
+   "source_split": "medium",
+   "source_id": "med2_12",
+   "template": "med2",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med2_27",
+   "source_split": "medium",
+   "source_id": "med2_27",
+   "template": "med2",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med2_24",
+   "source_split": "medium",
+   "source_id": "med2_24",
+   "template": "med2",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med2_45",
+   "source_split": "medium",
+   "source_id": "med2_45",
+   "template": "med2",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med2_1",
+   "source_split": "medium",
+   "source_id": "med2_1",
+   "template": "med2",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med2_19",
+   "source_split": "medium",
+   "source_id": "med2_19",
+   "template": "med2",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med2_17",
+   "source_split": "medium",
+   "source_id": "med2_17",
+   "template": "med2",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     7,
+     9
+    ]
+   ],
+   "notes": {},
+   "node_count": 9,
+   "depth": 4,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     9
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     9
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     6,
+     7
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     5
+    ],
+    [
+     9
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med3_5",
+   "source_split": "medium",
+   "source_id": "med3_5",
+   "template": "med3",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 11,
+   "depth": 6,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med3_43",
+   "source_split": "medium",
+   "source_id": "med3_43",
+   "template": "med3",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 11,
+   "depth": 6,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med3_4",
+   "source_split": "medium",
+   "source_id": "med3_4",
+   "template": "med3",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 11,
+   "depth": 6,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med3_1",
+   "source_split": "medium",
+   "source_id": "med3_1",
+   "template": "med3",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 11,
+   "depth": 6,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med3_19",
+   "source_split": "medium",
+   "source_id": "med3_19",
+   "template": "med3",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 11,
+   "depth": 6,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med3_16",
+   "source_split": "medium",
+   "source_id": "med3_16",
+   "template": "med3",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 11,
+   "depth": 6,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med3_11",
+   "source_split": "medium",
+   "source_id": "med3_11",
+   "template": "med3",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 11,
+   "depth": 6,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:med3_45",
+   "source_split": "medium",
+   "source_id": "med3_45",
+   "template": "med3",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [],
+   "notes": {},
+   "node_count": 11,
+   "depth": 6,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     8
+    ],
+    [
+     7,
+     9
+    ],
+    [
+     8,
+     10
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     10,
+     11
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     11
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:protein_1CAD_query_9_mask_2",
+   "source_split": "medium",
+   "source_id": "protein_1CAD_query_9_mask_2",
+   "template": "med4",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:protein_8RXN_query_9_mask_2",
+   "source_split": "medium",
+   "source_id": "protein_8RXN_query_9_mask_2",
+   "template": "med4",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:protein_1CRN_query_2_mask_2",
+   "source_split": "medium",
+   "source_id": "protein_1CRN_query_2_mask_2",
+   "template": "med4",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:protein_1PGA_query_6_mask_2",
+   "source_split": "medium",
+   "source_id": "protein_1PGA_query_6_mask_2",
+   "template": "med4",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:protein_1CRN_query_3_mask_2",
+   "source_split": "medium",
+   "source_id": "protein_1CRN_query_3_mask_2",
+   "template": "med4",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:protein_1CAD_query_1_mask_2",
+   "source_split": "medium",
+   "source_id": "protein_1CAD_query_1_mask_2",
+   "template": "med4",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:protein_8RXN_query_10_mask_2",
+   "source_split": "medium",
+   "source_id": "protein_8RXN_query_10_mask_2",
+   "template": "med4",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:medium:protein_1CRN_query_6_mask_2",
+   "source_split": "medium",
+   "source_id": "protein_1CRN_query_6_mask_2",
+   "template": "med4",
+   "difficulty": "medium",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard1_14",
+   "source_split": "hard",
+   "source_id": "hard1_14",
+   "template": "hard1",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 9,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard1_40",
+   "source_split": "hard",
+   "source_id": "hard1_40",
+   "template": "hard1",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 9,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard1_36",
+   "source_split": "hard",
+   "source_id": "hard1_36",
+   "template": "hard1",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 9,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard1_29",
+   "source_split": "hard",
+   "source_id": "hard1_29",
+   "template": "hard1",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 9,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard1_6",
+   "source_split": "hard",
+   "source_id": "hard1_6",
+   "template": "hard1",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 9,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard1_13",
+   "source_split": "hard",
+   "source_id": "hard1_13",
+   "template": "hard1",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 9,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard1_11",
+   "source_split": "hard",
+   "source_id": "hard1_11",
+   "template": "hard1",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 9,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard1_28",
+   "source_split": "hard",
+   "source_id": "hard1_28",
+   "template": "hard1",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 9,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard1_45",
+   "source_split": "hard",
+   "source_id": "hard1_45",
+   "template": "hard1",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 9,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     15
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard2_39",
+   "source_split": "hard",
+   "source_id": "hard2_39",
+   "template": "hard2",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 10,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard2_28",
+   "source_split": "hard",
+   "source_id": "hard2_28",
+   "template": "hard2",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 10,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard2_23",
+   "source_split": "hard",
+   "source_id": "hard2_23",
+   "template": "hard2",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 10,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard2_15",
+   "source_split": "hard",
+   "source_id": "hard2_15",
+   "template": "hard2",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 10,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard2_20",
+   "source_split": "hard",
+   "source_id": "hard2_20",
+   "template": "hard2",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 10,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard2_43",
+   "source_split": "hard",
+   "source_id": "hard2_43",
+   "template": "hard2",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 10,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard2_41",
+   "source_split": "hard",
+   "source_id": "hard2_41",
+   "template": "hard2",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 10,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard2_8",
+   "source_split": "hard",
+   "source_id": "hard2_8",
+   "template": "hard2",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 10,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard2_0",
+   "source_split": "hard",
+   "source_id": "hard2_0",
+   "template": "hard2",
+   "difficulty": "hard",
+   "exposed_row": true,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     16
+    ]
+   ],
+   "notes": {},
+   "node_count": 16,
+   "depth": 10,
+   "max_wave_width": 5,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     12
+    ],
+    [
+     5,
+     15
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     14
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     15
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     16
+    ],
+    [
+     15,
+     16
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8,
+     13
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6
+    ],
+    [
+     7
+    ],
+    [
+     11
+    ],
+    [
+     12
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ],
+    [
+     16
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard3_7",
+   "source_split": "hard",
+   "source_id": "hard3_7",
+   "template": "hard3",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "notes": {},
+   "node_count": 15,
+   "depth": 9,
+   "max_wave_width": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard3_16",
+   "source_split": "hard",
+   "source_id": "hard3_16",
+   "template": "hard3",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "notes": {},
+   "node_count": 15,
+   "depth": 9,
+   "max_wave_width": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard3_42",
+   "source_split": "hard",
+   "source_id": "hard3_42",
+   "template": "hard3",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "notes": {},
+   "node_count": 15,
+   "depth": 9,
+   "max_wave_width": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard3_38",
+   "source_split": "hard",
+   "source_id": "hard3_38",
+   "template": "hard3",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "notes": {},
+   "node_count": 15,
+   "depth": 9,
+   "max_wave_width": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard3_43",
+   "source_split": "hard",
+   "source_id": "hard3_43",
+   "template": "hard3",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "notes": {},
+   "node_count": 15,
+   "depth": 9,
+   "max_wave_width": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard3_20",
+   "source_split": "hard",
+   "source_id": "hard3_20",
+   "template": "hard3",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "notes": {},
+   "node_count": 15,
+   "depth": 9,
+   "max_wave_width": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard3_13",
+   "source_split": "hard",
+   "source_id": "hard3_13",
+   "template": "hard3",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "notes": {},
+   "node_count": 15,
+   "depth": 9,
+   "max_wave_width": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:hard3_3",
+   "source_split": "hard",
+   "source_id": "hard3_3",
+   "template": "hard3",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     12,
+     15
+    ]
+   ],
+   "notes": {},
+   "node_count": 15,
+   "depth": 9,
+   "max_wave_width": 4,
+   "edges": [
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     5
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     13
+    ],
+    [
+     5,
+     14
+    ],
+    [
+     6,
+     7
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     14
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     11,
+     12
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     12,
+     15
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     14,
+     15
+    ]
+   ],
+   "waves": [
+    [
+     1,
+     2,
+     4,
+     8
+    ],
+    [
+     3,
+     9
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7
+    ],
+    [
+     12
+    ],
+    [
+     13
+    ],
+    [
+     14
+    ],
+    [
+     15
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:protein_1CRN_query_10_mask_4",
+   "source_split": "hard",
+   "source_id": "protein_1CRN_query_10_mask_4",
+   "template": "hard4",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:protein_1PGA_query_3_mask_4",
+   "source_split": "hard",
+   "source_id": "protein_1PGA_query_3_mask_4",
+   "template": "hard4",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:protein_1CRN_query_6_mask_4",
+   "source_split": "hard",
+   "source_id": "protein_1CRN_query_6_mask_4",
+   "template": "hard4",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:protein_1CRN_query_3_mask_4",
+   "source_split": "hard",
+   "source_id": "protein_1CRN_query_3_mask_4",
+   "template": "hard4",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:protein_1GCN_query_4_mask_4",
+   "source_split": "hard",
+   "source_id": "protein_1GCN_query_4_mask_4",
+   "template": "hard4",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:protein_1CAD_query_2_mask_4",
+   "source_split": "hard",
+   "source_id": "protein_1CAD_query_2_mask_4",
+   "template": "hard4",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:protein_1PGA_query_7_mask_4",
+   "source_split": "hard",
+   "source_id": "protein_1PGA_query_7_mask_4",
+   "template": "hard4",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  },
+  {
+   "id": "longcot:chemistry:hard:protein_1CAD_query_6_mask_4",
+   "source_split": "hard",
+   "source_id": "protein_1CAD_query_6_mask_4",
+   "template": "hard4",
+   "difficulty": "hard",
+   "exposed_row": false,
+   "status": "pass",
+   "checks": {
+    "extractor": true,
+    "prompt_hash": true,
+    "answer": true,
+    "raw_prompt_identical": true,
+    "topology": true,
+    "waves": true,
+    "ancestors": true,
+    "declared": true,
+    "preamble": true
+   },
+   "soft_flags": {},
+   "redundant_edges": [
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     4,
+     6
+    ]
+   ],
+   "notes": {
+    "preamble_claim": 6
+   },
+   "node_count": 6,
+   "depth": 5,
+   "max_wave_width": 2,
+   "edges": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     5,
+     6
+    ]
+   ],
+   "waves": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ],
+    [
+     6
+    ]
+   ]
+  }
+ ]
+}

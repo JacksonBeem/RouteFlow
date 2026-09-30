@@ -1,0 +1,2244 @@
+{
+ "run": "proposed-4",
+ "baseline": [
+  "eval-b1",
+  "eval-b2"
+ ],
+ "tasks": [
+  {
+   "task": "hard3_20",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.28742924999999997,
+    "B0": 0.27845824999999996,
+    "A1": 0.4121775
+   },
+   "T_E2E_s": {
+    "Proposed": 198.656,
+    "B0": 276.871,
+    "A1": 287.375
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_49",
+   "correct": {
+    "Proposed": true,
+    "B0": true,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.06105524999999999,
+    "B0": 0.06110475,
+    "A1": 0.04846275
+   },
+   "T_E2E_s": {
+    "Proposed": 47.178,
+    "B0": 59.429,
+    "A1": 36.708
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med1_37",
+   "correct": {
+    "Proposed": true,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.1691775,
+    "B0": 0.17928924999999998,
+    "A1": 0.19721450000000001
+   },
+   "T_E2E_s": {
+    "Proposed": 99.758,
+    "B0": 182.917,
+    "A1": 122.114
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_32",
+   "correct": {
+    "Proposed": true,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.06743325,
+    "B0": 0.07288575,
+    "A1": 0.09222849999999999
+   },
+   "T_E2E_s": {
+    "Proposed": 54.791,
+    "B0": 89.779,
+    "A1": 71.699
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med1_26",
+   "correct": {
+    "Proposed": false,
+    "B0": true,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.15188849999999998,
+    "B0": 0.17971275,
+    "A1": 0.156702
+   },
+   "T_E2E_s": {
+    "Proposed": 98.185,
+    "B0": 194.692,
+    "A1": 83.974
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1CRN_query_10_mask_4",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.315302,
+    "B0": 0.24769149999999998,
+    "A1": 0.26208525
+   },
+   "T_E2E_s": {
+    "Proposed": 148.096,
+    "B0": 144.736,
+    "A1": 126.016
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_0",
+   "correct": {
+    "Proposed": true,
+    "B0": true,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.07372300000000001,
+    "B0": 0.08606675,
+    "A1": 0.0862155
+   },
+   "T_E2E_s": {
+    "Proposed": 52.005,
+    "B0": 85.268,
+    "A1": 78.143
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_12",
+   "correct": {
+    "Proposed": true,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.08434900000000001,
+    "B0": 0.104461,
+    "A1": 0.12036150000000001
+   },
+   "T_E2E_s": {
+    "Proposed": 73.688,
+    "B0": 100.044,
+    "A1": 99.218
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_10",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.051479000000000004,
+    "B0": 0.04913125,
+    "A1": 0.05061175
+   },
+   "T_E2E_s": {
+    "Proposed": 35.301,
+    "B0": 55.066,
+    "A1": 51.355
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_26",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.102449,
+    "B0": 0.11784325,
+    "A1": 0.1070125
+   },
+   "T_E2E_s": {
+    "Proposed": 87.079,
+    "B0": 108.818,
+    "A1": 115.797
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard1_11",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.37745475,
+    "B0": 0.39495925,
+    "A1": 0.36434649999999996
+   },
+   "T_E2E_s": {
+    "Proposed": 309.684,
+    "B0": 433.648,
+    "A1": 266.311
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_11",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.05193675,
+    "B0": 0.06135675000000001,
+    "A1": 0.05139925
+   },
+   "T_E2E_s": {
+    "Proposed": 39.971,
+    "B0": 71.108,
+    "A1": 44.15
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_30",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.09755875,
+    "B0": 0.09011975,
+    "A1": 0.10563
+   },
+   "T_E2E_s": {
+    "Proposed": 80.899,
+    "B0": 94.125,
+    "A1": 89.571
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_3",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.0583665,
+    "B0": 0.0392035,
+    "A1": 0.042859249999999995
+   },
+   "T_E2E_s": {
+    "Proposed": 47.522,
+    "B0": 42.214,
+    "A1": 36.987
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_18",
+   "correct": {
+    "Proposed": false,
+    "B0": true,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.12095550000000001,
+    "B0": 0.11252325,
+    "A1": 0.1389045
+   },
+   "T_E2E_s": {
+    "Proposed": 111.308,
+    "B0": 113.136,
+    "A1": 124.249
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_6",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.07947325,
+    "B0": 0.08646400000000001,
+    "A1": 0.1012515
+   },
+   "T_E2E_s": {
+    "Proposed": 73.741,
+    "B0": 78.784,
+    "A1": 84.294
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_25",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.09747925,
+    "B0": 0.13121675,
+    "A1": 0.13185550000000001
+   },
+   "T_E2E_s": {
+    "Proposed": 96.393,
+    "B0": 134.321,
+    "A1": 124.854
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard1_28",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.24356600000000003,
+    "B0": 0.23166674999999998,
+    "A1": 0.231357
+   },
+   "T_E2E_s": {
+    "Proposed": 202.888,
+    "B0": 242.572,
+    "A1": 183.868
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1CAD_query_2_mask_4",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.26389375,
+    "B0": 0.231553,
+    "A1": 0.3074785
+   },
+   "T_E2E_s": {
+    "Proposed": 76.686,
+    "B0": 73.91,
+    "A1": 129.522
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med2_22",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.14232699999999998,
+    "B0": 0.20422325,
+    "A1": 0.1815975
+   },
+   "T_E2E_s": {
+    "Proposed": 64.313,
+    "B0": 204.956,
+    "A1": 108.834
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1CRN_query_3_mask_4",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.28309225,
+    "B0": 0.28715925000000003,
+    "A1": 0.30841999999999997
+   },
+   "T_E2E_s": {
+    "Proposed": 112.728,
+    "B0": 160.293,
+    "A1": 159.218
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_48",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.07547575,
+    "B0": 0.0443695,
+    "A1": 0.06510525
+   },
+   "T_E2E_s": {
+    "Proposed": 61.361,
+    "B0": 52.669,
+    "A1": 62.308
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med1_3",
+   "correct": {
+    "Proposed": false,
+    "B0": true,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.14074325000000001,
+    "B0": 0.19395600000000002,
+    "A1": 0.1616195
+   },
+   "T_E2E_s": {
+    "Proposed": 98.137,
+    "B0": 221.482,
+    "A1": 116.44
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1PGA_query_6_mask_2",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.332009,
+    "B0": 0.30452625,
+    "A1": 0.29077299999999995
+   },
+   "T_E2E_s": {
+    "Proposed": 103.933,
+    "B0": 132.47,
+    "A1": 110.564
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_49",
+   "correct": {
+    "Proposed": true,
+    "B0": true,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.14892450000000002,
+    "B0": 0.15354675,
+    "A1": 0.15393700000000002
+   },
+   "T_E2E_s": {
+    "Proposed": 116.12,
+    "B0": 162.288,
+    "A1": 140.643
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard1_14",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.31785224999999995,
+    "B0": 0.30367750000000004,
+    "A1": 0.2860865
+   },
+   "T_E2E_s": {
+    "Proposed": 253.165,
+    "B0": 350.336,
+    "A1": 240.076
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med3_45",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.36258250000000003,
+    "B0": 0.3201905,
+    "A1": 0.274379
+   },
+   "T_E2E_s": {
+    "Proposed": 238.969,
+    "B0": 322.878,
+    "A1": 151.815
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med1_6",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.15606224999999999,
+    "B0": 0.14836850000000001,
+    "A1": 0.15860425
+   },
+   "T_E2E_s": {
+    "Proposed": 91.993,
+    "B0": 155.663,
+    "A1": 99.908
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_39",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.0978765,
+    "B0": 0.12724775,
+    "A1": 0.1422575
+   },
+   "T_E2E_s": {
+    "Proposed": 81.132,
+    "B0": 131.667,
+    "A1": 133.031
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med3_43",
+   "correct": {
+    "Proposed": false,
+    "B0": true,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.25742024999999996,
+    "B0": 0.2774135,
+    "A1": 0.23917775
+   },
+   "T_E2E_s": {
+    "Proposed": 137.153,
+    "B0": 290.403,
+    "A1": 167.719
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_8",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.124942,
+    "B0": 0.11743724999999999,
+    "A1": 0.1169875
+   },
+   "T_E2E_s": {
+    "Proposed": 110.07,
+    "B0": 118.548,
+    "A1": 106.767
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_4",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.08137025,
+    "B0": 0.067704,
+    "A1": 0.07498575
+   },
+   "T_E2E_s": {
+    "Proposed": 78.965,
+    "B0": 68.85,
+    "A1": 71.064
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard1_6",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.3607685,
+    "B0": 0.2807315,
+    "A1": 0.29160775
+   },
+   "T_E2E_s": {
+    "Proposed": 319.098,
+    "B0": 307.2,
+    "A1": 236.379
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard2_20",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.28772425,
+    "B0": 0.36624349999999994,
+    "A1": 0.21513625000000003
+   },
+   "T_E2E_s": {
+    "Proposed": 209.929,
+    "B0": 322.778,
+    "A1": 145.188
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard2_43",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.45763925,
+    "B0": 0.39420675,
+    "A1": 0.43450574999999997
+   },
+   "T_E2E_s": {
+    "Proposed": 330.274,
+    "B0": 333.338,
+    "A1": 361.606
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med3_11",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.27052325,
+    "B0": 0.29698549999999996,
+    "A1": 0.32722375000000004
+   },
+   "T_E2E_s": {
+    "Proposed": 139.145,
+    "B0": 285.665,
+    "A1": 206.717
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med2_45",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.16891649999999997,
+    "B0": 0.185983,
+    "A1": 0.23731399999999997
+   },
+   "T_E2E_s": {
+    "Proposed": 100.971,
+    "B0": 187.303,
+    "A1": 145.361
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_14",
+   "correct": {
+    "Proposed": true,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.04713199999999999,
+    "B0": 0.066073,
+    "A1": 0.07947800000000001
+   },
+   "T_E2E_s": {
+    "Proposed": 33.04,
+    "B0": 59.275,
+    "A1": 66.034
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard3_16",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.30438075000000003,
+    "B0": 0.25893,
+    "A1": 0.43530025000000006
+   },
+   "T_E2E_s": {
+    "Proposed": 231.663,
+    "B0": 294.089,
+    "A1": 348.068
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_47",
+   "correct": {
+    "Proposed": true,
+    "B0": true,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.05849875,
+    "B0": 0.04915925,
+    "A1": 0.057092000000000004
+   },
+   "T_E2E_s": {
+    "Proposed": 38.312,
+    "B0": 54.65,
+    "A1": 36.601
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med2_24",
+   "correct": {
+    "Proposed": true,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.07767650000000001,
+    "B0": 0.14290150000000001,
+    "A1": 0.11757024999999999
+   },
+   "T_E2E_s": {
+    "Proposed": 39.242,
+    "B0": 145.094,
+    "A1": 85.107
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med2_12",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.15165525,
+    "B0": 0.15943725,
+    "A1": 0.156667
+   },
+   "T_E2E_s": {
+    "Proposed": 78.269,
+    "B0": 164.736,
+    "A1": 92.429
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard1_45",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.30545725,
+    "B0": 0.273322,
+    "A1": 0.25004875
+   },
+   "T_E2E_s": {
+    "Proposed": 275.208,
+    "B0": 301.289,
+    "A1": 221.279
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_20",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.100087,
+    "B0": 0.09207625,
+    "A1": 0.121282
+   },
+   "T_E2E_s": {
+    "Proposed": 85.246,
+    "B0": 88.62,
+    "A1": 136.976
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med2_19",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.10222674999999999,
+    "B0": 0.201642,
+    "A1": 0.17473925
+   },
+   "T_E2E_s": {
+    "Proposed": 51.22,
+    "B0": 185.213,
+    "A1": 102.171
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1CAD_query_1_mask_2",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.29037349999999995,
+    "B0": 0.28732725,
+    "A1": 0.283178
+   },
+   "T_E2E_s": {
+    "Proposed": 97.865,
+    "B0": 123.453,
+    "A1": 116.043
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med3_5",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.26293875,
+    "B0": 0.22663375000000002,
+    "A1": 0.22557675
+   },
+   "T_E2E_s": {
+    "Proposed": 140.774,
+    "B0": 209.015,
+    "A1": 138.735
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med2_27",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.1885335,
+    "B0": 0.22605099999999997,
+    "A1": 0.22135399999999997
+   },
+   "T_E2E_s": {
+    "Proposed": 93.941,
+    "B0": 263.397,
+    "A1": 183.375
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_6",
+   "correct": {
+    "Proposed": true,
+    "B0": true,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.0581825,
+    "B0": 0.05172650000000001,
+    "A1": 0.059486
+   },
+   "T_E2E_s": {
+    "Proposed": 37.268,
+    "B0": 48.786,
+    "A1": 36.546
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1GCN_query_4_mask_4",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.27566375000000004,
+    "B0": 0.24653475,
+    "A1": 0.19724250000000002
+   },
+   "T_E2E_s": {
+    "Proposed": 134.268,
+    "B0": 141.674,
+    "A1": 102.128
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard3_13",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.23501974999999997,
+    "B0": 0.3741184999999999,
+    "A1": 0.31436825
+   },
+   "T_E2E_s": {
+    "Proposed": 168.64,
+    "B0": 399.737,
+    "A1": 186.922
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard2_23",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.26597275000000004,
+    "B0": 0.288603,
+    "A1": 0.27167525
+   },
+   "T_E2E_s": {
+    "Proposed": 189.39,
+    "B0": 300.996,
+    "A1": 269.17
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard2_28",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.200795,
+    "B0": 0.40618374999999995,
+    "A1": 0.41004074999999995
+   },
+   "T_E2E_s": {
+    "Proposed": 144.179,
+    "B0": 351.905,
+    "A1": 298.023
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1PGA_query_3_mask_4",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.3918425,
+    "B0": 0.322875,
+    "A1": 0.3377465
+   },
+   "T_E2E_s": {
+    "Proposed": 147.78,
+    "B0": 152.807,
+    "A1": 124.153
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1CRN_query_6_mask_2",
+   "correct": {
+    "Proposed": true,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.3018235,
+    "B0": 0.25066825,
+    "A1": 0.25888625
+   },
+   "T_E2E_s": {
+    "Proposed": 130.021,
+    "B0": 129.201,
+    "A1": 116.744
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1CAD_query_9_mask_2",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.34890699999999997,
+    "B0": 0.28018725,
+    "A1": 0.23695524999999998
+   },
+   "T_E2E_s": {
+    "Proposed": 155.027,
+    "B0": 119.261,
+    "A1": 70.559
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard2_8",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.23879174999999997,
+    "B0": 0.22270849999999998,
+    "A1": 0.4648805
+   },
+   "T_E2E_s": {
+    "Proposed": 183.789,
+    "B0": 257.169,
+    "A1": 423.04
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard1_29",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.379222,
+    "B0": 0.35316925,
+    "A1": 0.42357350000000005
+   },
+   "T_E2E_s": {
+    "Proposed": 272.155,
+    "B0": 371.659,
+    "A1": 329.902
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_8RXN_query_10_mask_2",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.29524649999999997,
+    "B0": 0.29760675,
+    "A1": 0.29072400000000004
+   },
+   "T_E2E_s": {
+    "Proposed": 112.417,
+    "B0": 146.068,
+    "A1": 114.837
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_47",
+   "correct": {
+    "Proposed": false,
+    "B0": true,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.08476025000000001,
+    "B0": 0.09955575,
+    "A1": 0.09394175
+   },
+   "T_E2E_s": {
+    "Proposed": 64.157,
+    "B0": 91.528,
+    "A1": 73.283
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_31",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.09961475,
+    "B0": 0.12391574999999999,
+    "A1": 0.09237024999999999
+   },
+   "T_E2E_s": {
+    "Proposed": 106.531,
+    "B0": 124.849,
+    "A1": 82.568
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_17",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.08637249999999999,
+    "B0": 0.06782300000000001,
+    "A1": 0.06783875
+   },
+   "T_E2E_s": {
+    "Proposed": 78.425,
+    "B0": 67.972,
+    "A1": 80.178
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard3_3",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.31221625,
+    "B0": 0.27593300000000004,
+    "A1": 0.33601575
+   },
+   "T_E2E_s": {
+    "Proposed": 236.617,
+    "B0": 295.323,
+    "A1": 214.552
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_43",
+   "correct": {
+    "Proposed": true,
+    "B0": false,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.10721949999999998,
+    "B0": 0.12303549999999999,
+    "A1": 0.10704575
+   },
+   "T_E2E_s": {
+    "Proposed": 92.077,
+    "B0": 114.564,
+    "A1": 93.35
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard3_38",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.28553000000000006,
+    "B0": 0.31881325,
+    "A1": 0.41121850000000004
+   },
+   "T_E2E_s": {
+    "Proposed": 239.286,
+    "B0": 292.623,
+    "A1": 299.521
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1CRN_query_6_mask_4",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.29337750000000007,
+    "B0": 0.27763575,
+    "A1": 0.2418885
+   },
+   "T_E2E_s": {
+    "Proposed": 134.201,
+    "B0": 152.095,
+    "A1": 112.755
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard2_41",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.34610875,
+    "B0": 0.29789025,
+    "A1": 0.2658005
+   },
+   "T_E2E_s": {
+    "Proposed": 263.345,
+    "B0": 323.571,
+    "A1": 240.569
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard2_0",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.30103725,
+    "B0": 0.3356325,
+    "A1": 0.3367315
+   },
+   "T_E2E_s": {
+    "Proposed": 241.231,
+    "B0": 326.098,
+    "A1": 285.516
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med1_32",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.167106,
+    "B0": 0.173369,
+    "A1": 0.16725625000000002
+   },
+   "T_E2E_s": {
+    "Proposed": 134.088,
+    "B0": 198.811,
+    "A1": 104.557
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_23",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.08768125,
+    "B0": 0.09633575,
+    "A1": 0.12130650000000001
+   },
+   "T_E2E_s": {
+    "Proposed": 70.979,
+    "B0": 82.27,
+    "A1": 100.666
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1PGA_query_7_mask_4",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.30104899999999996,
+    "B0": 0.312879,
+    "A1": 0.30391900000000005
+   },
+   "T_E2E_s": {
+    "Proposed": 97.305,
+    "B0": 112.186,
+    "A1": 105.827
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1CRN_query_3_mask_2",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.31786274999999997,
+    "B0": 0.23441425000000002,
+    "A1": 0.26814375
+   },
+   "T_E2E_s": {
+    "Proposed": 139.672,
+    "B0": 104.506,
+    "A1": 105.053
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_35",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.03941775,
+    "B0": 0.06117475,
+    "A1": 0.060165
+   },
+   "T_E2E_s": {
+    "Proposed": 31.42,
+    "B0": 69.65,
+    "A1": 48.92
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard3_42",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.25193825,
+    "B0": 0.33343100000000003,
+    "A1": 0.316113
+   },
+   "T_E2E_s": {
+    "Proposed": 178.0,
+    "B0": 323.495,
+    "A1": 244.631
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med3_16",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.29633024999999996,
+    "B0": 0.39305,
+    "A1": 0.412195
+   },
+   "T_E2E_s": {
+    "Proposed": 173.86,
+    "B0": 359.108,
+    "A1": 198.749
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard2_39",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.18283899999999997,
+    "B0": 0.2384935,
+    "A1": 0.47303900000000004
+   },
+   "T_E2E_s": {
+    "Proposed": 126.53,
+    "B0": 267.666,
+    "A1": 380.747
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med1_45",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.24787900000000002,
+    "B0": 0.25282775,
+    "A1": 0.27719475
+   },
+   "T_E2E_s": {
+    "Proposed": 163.961,
+    "B0": 238.964,
+    "A1": 161.28
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_40",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.0627475,
+    "B0": 0.07738325,
+    "A1": 0.072541
+   },
+   "T_E2E_s": {
+    "Proposed": 39.535,
+    "B0": 82.759,
+    "A1": 59.769
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard1_13",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.32720974999999997,
+    "B0": 0.32753525,
+    "A1": 0.3477915
+   },
+   "T_E2E_s": {
+    "Proposed": 241.268,
+    "B0": 279.513,
+    "A1": 251.456
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_39",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.06233425,
+    "B0": 0.047159,
+    "A1": 0.03820425
+   },
+   "T_E2E_s": {
+    "Proposed": 40.705,
+    "B0": 50.242,
+    "A1": 27.008
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy2_14",
+   "correct": {
+    "Proposed": true,
+    "B0": true,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.09839324999999999,
+    "B0": 0.10469199999999998,
+    "A1": 0.0837235
+   },
+   "T_E2E_s": {
+    "Proposed": 96.394,
+    "B0": 98.091,
+    "A1": 72.513
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med3_4",
+   "correct": {
+    "Proposed": false,
+    "B0": true,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.22409150000000003,
+    "B0": 0.34722274999999997,
+    "A1": 0.3487295
+   },
+   "T_E2E_s": {
+    "Proposed": 128.07,
+    "B0": 403.893,
+    "A1": 211.846
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med1_12",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.183417,
+    "B0": 0.1930215,
+    "A1": 0.19343799999999997
+   },
+   "T_E2E_s": {
+    "Proposed": 121.601,
+    "B0": 195.424,
+    "A1": 136.914
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med3_1",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.24466249999999998,
+    "B0": 0.24281600000000003,
+    "A1": 0.26038075
+   },
+   "T_E2E_s": {
+    "Proposed": 152.56,
+    "B0": 248.425,
+    "A1": 150.799
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_38",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.05918025000000001,
+    "B0": 0.08513575,
+    "A1": 0.08563275
+   },
+   "T_E2E_s": {
+    "Proposed": 43.735,
+    "B0": 96.835,
+    "A1": 58.484
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_9",
+   "correct": {
+    "Proposed": true,
+    "B0": true,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.066642,
+    "B0": 0.07284025,
+    "A1": 0.08858324999999999
+   },
+   "T_E2E_s": {
+    "Proposed": 41.18,
+    "B0": 64.483,
+    "A1": 63.737
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "easy1_46",
+   "correct": {
+    "Proposed": true,
+    "B0": true,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.05910024999999999,
+    "B0": 0.07306599999999999,
+    "A1": 0.05962775
+   },
+   "T_E2E_s": {
+    "Proposed": 41.986,
+    "B0": 78.319,
+    "A1": 42.514
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1CRN_query_2_mask_2",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.30216225,
+    "B0": 0.289331,
+    "A1": 0.26497275
+   },
+   "T_E2E_s": {
+    "Proposed": 127.209,
+    "B0": 135.542,
+    "A1": 118.053
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_8RXN_query_9_mask_2",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.35058799999999996,
+    "B0": 0.31845625,
+    "A1": 0.33198375
+   },
+   "T_E2E_s": {
+    "Proposed": 130.556,
+    "B0": 129.157,
+    "A1": 145.492
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard3_43",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.26871675,
+    "B0": 0.25974899999999995,
+    "A1": 0.32269650000000005
+   },
+   "T_E2E_s": {
+    "Proposed": 214.135,
+    "B0": 236.236,
+    "A1": 222.97
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard3_7",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.2664185,
+    "B0": 0.3147269999999999,
+    "A1": 0.34873475
+   },
+   "T_E2E_s": {
+    "Proposed": 192.494,
+    "B0": 298.908,
+    "A1": 232.129
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med2_17",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.132052,
+    "B0": 0.20623225,
+    "A1": 0.162939
+   },
+   "T_E2E_s": {
+    "Proposed": 71.972,
+    "B0": 216.635,
+    "A1": 126.8
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med1_20",
+   "correct": {
+    "Proposed": true,
+    "B0": true,
+    "A1": true
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.131425,
+    "B0": 0.1356495,
+    "A1": 0.1569575
+   },
+   "T_E2E_s": {
+    "Proposed": 111.796,
+    "B0": 125.381,
+    "A1": 96.49
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med3_19",
+   "correct": {
+    "Proposed": false,
+    "B0": true,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.18999025,
+    "B0": 0.20697250000000003,
+    "A1": 0.19581975000000001
+   },
+   "T_E2E_s": {
+    "Proposed": 136.056,
+    "B0": 237.854,
+    "A1": 131.964
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard1_36",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.284642,
+    "B0": 0.29833475,
+    "A1": 0.30410624999999997
+   },
+   "T_E2E_s": {
+    "Proposed": 234.733,
+    "B0": 283.693,
+    "A1": 270.686
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "protein_1CAD_query_6_mask_4",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.310278,
+    "B0": 0.2800385,
+    "A1": 0.29128224999999996
+   },
+   "T_E2E_s": {
+    "Proposed": 112.414,
+    "B0": 125.855,
+    "A1": 133.97
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med2_1",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.14059475000000002,
+    "B0": 0.14129325,
+    "A1": 0.16760274999999997
+   },
+   "T_E2E_s": {
+    "Proposed": 62.935,
+    "B0": 156.015,
+    "A1": 126.648
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard2_15",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.27414499999999997,
+    "B0": 0.21623525,
+    "A1": 0.203399
+   },
+   "T_E2E_s": {
+    "Proposed": 176.522,
+    "B0": 196.489,
+    "A1": 161.742
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "hard1_40",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.30908775,
+    "B0": 0.36917825,
+    "A1": 0.2598785
+   },
+   "T_E2E_s": {
+    "Proposed": 250.17,
+    "B0": 333.431,
+    "A1": 171.852
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  },
+  {
+   "task": "med1_15",
+   "correct": {
+    "Proposed": false,
+    "B0": false,
+    "A1": false
+   },
+   "C_LLM_usd": {
+    "Proposed": 0.17829050000000002,
+    "B0": 0.189,
+    "A1": 0.2931705
+   },
+   "T_E2E_s": {
+    "Proposed": 108.36,
+    "B0": 189.471,
+    "A1": 202.809
+   },
+   "status": "SUCCEEDED",
+   "retries": 0,
+   "truncated": 0,
+   "cost_unknown": 0
+  }
+ ],
+ "totals": {
+  "Proposed": {
+   "correct": 16,
+   "C_LLM_usd": 20.0362,
+   "T_E2E_s": 12869.1
+  },
+  "B0": {
+   "correct": 16,
+   "C_LLM_usd": 20.7199,
+   "T_E2E_s": 18506.2
+  },
+  "A1": {
+   "correct": 15,
+   "C_LLM_usd": 21.5901,
+   "T_E2E_s": 14668.1
+  }
+ },
+ "n": 100,
+ "tier_cost_same_nodes": {
+  "medium": {
+   "nodes": 338,
+   "proposed_usd": 4.5539,
+   "a1_usd": 6.0636
+  },
+  "hard": {
+   "nodes": 494,
+   "proposed_usd": 14.5486,
+   "a1_usd": 15.2618
+  },
+  "easy": {
+   "nodes": 78,
+   "proposed_usd": 0.9336,
+   "a1_usd": 0.2647
+  }
+ }
+}
