@@ -1,7 +1,7 @@
 # Claims map: paper → evidence
 
-Each number in *Dependency-Aware Task Decomposition and Parallel Multi-LLM Execution on Serverless
-Workflows* (RouteFlow, WoAIS2 '26 submission) traced to the committed record that produces it.
+Claims in *Dependency-Aware Task Decomposition and Parallel Multi-LLM Execution on Serverless
+Workflows* (RouteFlow, WoAIS2 '26 submission) traced to analysis outputs, historical reports or external sources.
 Line numbers refer to the margin numbers of the submitted PDF. Figures are not regenerated; the
 numbers behind them are.
 
@@ -17,11 +17,17 @@ python data/cohort100_ab/analysis/paper_numbers.py
 
 1. Writes `data/cohort100_ab/analysis/eval.json`, the pre-registered B0 vs A1 analysis
    (`docs/cohort100_ab_preregistration_2026-09-26.md`).
-2. Writes `data/cohort100_ab/analysis/paper_numbers.json`, every other paper number.
+2. Writes `data/cohort100_ab/analysis/paper_numbers.json`, the four configurations' performance,
+   cost, accuracy and routing summaries.
 
 Both outputs are shipped and regenerate byte-identical. `python replication/verify_tier1.py`
 runs both commands and checks this. Bootstrap CIs are seeded: `cohort100-ab-boot-v1` for the analysis script and
 `paper-todo-v1` for the task-mean CIs in `paper_numbers.py`.
+
+This check reproduces the archived result summaries. It does not rerun the nine dataset checks
+or the development/reserve coverage checks in the historical reports cited below, nor external
+literature results. Accuracy here uses saved grades; tier 2 re-scores the answers. Both commands
+above select the original archived runs.
 
 ## Notation
 
@@ -122,4 +128,3 @@ In the paths below, `J` is `data/cohort100_ab/analysis/paper_numbers.json`.
   `docs/cohort100_ab_results_2026-09-28.md` reports medians over succeeded arms only, so its A1
   median (124.9 s) differs from Table 3's (124.6 s).
 - **Accuracy:** a failed arm counts as incorrect.
-

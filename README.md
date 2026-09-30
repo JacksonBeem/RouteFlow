@@ -56,8 +56,8 @@ most 16,384 output tokens, strict JSON-schema output and no fallbacks.
   cost under 2% of the total.
 - **Accuracy:** neither parallelism nor routing changes accuracy measurably.
 
-[`replication/CLAIMS.md`](replication/CLAIMS.md) traces every number in the paper to the file
-and field that produce it.
+[`replication/CLAIMS.md`](replication/CLAIMS.md) maps paper claims to analysis outputs,
+historical reports and external sources.
 
 ## How a task is executed
 
@@ -149,7 +149,7 @@ A1 / RouteFlow       S1 ──┬─► S2 ──┬─► S4 ──► S5
 
 ## Reproducing the results
 
-**Recompute every number in the paper.** This needs Windows x64 and Python 3.14, and takes a
+**Recompute the archived result summaries.** This needs Windows x64 and Python 3.14, and takes a
 few seconds. No API key, AWS account or extra packages are required.
 
 ```powershell
@@ -157,7 +157,9 @@ python replication/verify_tier1.py
 ```
 
 The script regenerates the two analysis outputs from the run records and compares them byte for
-byte with the shipped files. Expected output is `MATCH` twice, with exit code 0.
+byte with the shipped files. Expected output is `MATCH` twice, with exit code 0. Historical
+dataset-validation and development/reserve router-coverage reports are included separately;
+this command does not regenerate those reports, figures or external literature claims.
 
 Two further steps are optional and are described in
 [`replication/README.md`](replication/README.md):
@@ -177,9 +179,9 @@ software versions, seeds, costs and hardware.
 ├── LICENSE
 ├── replication/
 │   ├── README.md                      # full replication guide (grading, re-running on AWS)
-│   ├── CLAIMS.md                      # every number in the paper -> the file and field that produce it
+│   ├── CLAIMS.md                      # paper claims -> analysis outputs, reports and external sources
 │   ├── computational_requirements.md  # versions, seeds, costs, hardware
-│   ├── verify_tier1.py                # recompute and check every number in the paper
+│   ├── verify_tier1.py                # recompute and check the archived result summaries
 │   └── environment/                   # pinned dependencies
 ├── src/
 │   ├── cohort100_ab/node_worker.py    # the subtask worker (one Lambda per subtask)
